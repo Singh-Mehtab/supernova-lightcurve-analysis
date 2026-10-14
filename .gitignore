@@ -1,14 +1,14 @@
-   .DS_Store
+.DS_Store
 
-   __pycache__/
-   *.pyc
-   .ipynb_checkpoints/
-   .venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
 
-   *.db
-   *.db-*
+*.db
+*.db-*
 
-   *.fits
-   *.fits.gz
+*.fits
+*.fits.gz
 
-   .env
+.env
