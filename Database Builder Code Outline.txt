@@ -1,0 +1,92 @@
+
+for item in list0:
+
+
+    func1(item) gets every obvservation night link on that page 
+        outputs list0.5
+
+    for items in list0.5:
+        func7(item)
+            check db1 if item has been processed
+            if not, append link to list1
+
+    for every item in list1:
+        call func2(url, headers, timeout)
+            outputs entire webpage as output1
+
+        output2 = func3(output1, "html.parser")
+        list2 = func4
+
+        for every row in list2:
+            find every cell in row
+            get value from cell
+            check 9 values
+            append row to list3
+
+
+         obstain var1, var2 from the url 
+    
+        for item in list3:
+            assign dictionary values to each position, including var1 and var2
+            append to make list4
+
+
+        func6
+            append list4 to db2
+            update db2(table2)
+
+
+
+
+**appending list4 to db2**
+
+connect to database
+define table1 in db2
+    define all names, establish duplicate rule
+define table2 in db2
+
+
+
+
+
+
+
+
+
+
+
+
+func1 - 
+func2 - requests.get
+func3 - BeautifulSoup
+func4 - soup.find_all("tr")
+func5 - PurePosixPath(urlparse(url).path)
+func6 - save_daily_log append list4 to db2(table1) and updates db2(table2)
+func7 - is_log_processed outputs true or false if url has already been processed
+
+list0 - all 6 telescope 2026 links
+list0.5 - 
+list1 - unproccsed links
+list2 - list of every row on that page
+list3 - raw non labeled rows from the daily page
+list4 - table/dictionary with list3 but with labels and new datapoints
+
+output1 - 
+output2 - 
+
+var1 - date of observation
+var2 - telescope used
+            
+db2 - the actual database
+    table1 - actual observations table
+    table2 - which days have been processed
+
+
+
+
+
+
+
+
+
+
