@@ -17,11 +17,11 @@ for item in list0:
         output2 = func3(output1, "html.parser")
         list2 = func4
 
-        for every row in list2:
+        func8 (for every row in list2:
             find every cell in row
             get value from cell
             check 9 values
-            append row to list3
+            append row to list3)
 
 
          obstain var1, var2 from the url 
@@ -44,11 +44,6 @@ connect to database
 define table1 in db2
     define all names, establish duplicate rule
 define table2 in db2
-
-
-
-
-
 
 
 
