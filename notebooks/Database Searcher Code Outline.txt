@@ -1,0 +1,61 @@
+
+
+
+func1 - get_overview()
+func2 - get_target_details()
+func3 - print_overview()
+func4 - print_calendar()
+func5 - print_target_details()
+
+
+Imports
+Settings: database filename and telescope colours
+
+Functions:
+   get_target_summary()
+   get_target_observations()
+   print_target_summary()
+   print_calendar()
+   print_observing_details()
+
+main():
+   Read the command-line argument
+   Open the database read-only
+
+   If browsing all targets:
+       Query the target summaries
+       Print the summary table
+
+   Otherwise:
+       Query the target's observations
+       If none exist, print a message and stop
+       Print the target heading
+       Print the calendar
+       Print the grouped observing details
+
+   Close the database
+
+
+
+
+
+get_target_summary(conn)
+   Returns one summary per SN/AT target:
+       name
+       number of exposures
+       number of distinct observing nights
+       first and latest night
+       telescopes used
+
+get_target_observations(conn, target)
+   Returns the individual observation records for one target
+   Sorted by night, telescope and run number
+
+
+
+
+"list" or "SN"
+   → List all recorded SN and AT targets
+
+A specific target name
+   → Show that target's calendar and observing details
