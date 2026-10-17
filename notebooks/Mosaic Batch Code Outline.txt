@@ -1,0 +1,156 @@
+Use supernovae_search.py to output a text file for each supernovae
+
+
+
+Importantly, stackX2 takes stackX2(telescope, date, img_range_start, image_range_end, fwhm_lim)
+python /mnt/64bin/stackX2.py pt5m 26_10_07 00882xxx 00882xxx 5.0
+
+
+func1(db1)
+    takes db1, 
+
+
+
+
+
+
+
+
+
+db1 - Durham Observation Database
+
+
+
+
+
+steps:
+from overview text file, find date, load each filter into a list
+for each filter in list:
+    
+
+
+
+
+
+
+
+
+use supernovae_search.py to output a textfile for every single supernovae observation day, for example
+sn2026aaiv-26_10_01
+sn2026aaiv-26_10_02
+sn2026aaiv-26_10_03
+sn2026aaiv-26_10_04
+...
+
+sn2026aeiv-26_10_01
+sn2026aeiv-26_10_02
+sn2026aeiv-26_10_03
+...
+
+master_list = ["sn2026aaiv-26_10_01", "sn2026aaiv-26_10_02", "sn2026aaiv-26_10_03", ...
+            "sn2026aeiv-26_10_01", "sn2026aeiv-26_10_02", "sn2026aeiv-26_10_03", ...
+            ]
+
+
+
+def print_stackX2(telescope, date, img_range_start, img_range_end, fwhm_lim):
+    return("python /mnt/64bin/stackX2.py telescope date img_range_start img_range_end fwhm_lim")
+
+
+def print_rename_copy(supernova_name, obv_date, telescope, filter):
+    new_file_name = f"{supernova_name}-{obv_date}-{telescope}-{filter}-mosaic.fits"
+    new_dir = /.../.../...
+    if amosaic.fits exists:
+        return("rename amosaic.fits new_file_name")
+        return("copy new_file_name new_dir")
+    
+
+
+def print_mosaic_folder(telescope, band):
+    folder_name = telescope_band
+    return(mkdir folder_name)
+    return(cd folder_name)
+
+def print_day_folder(obv_date):
+    return("mkdir folder_name", "cd folder_name")
+
+
+def main_funct(master_list):
+    for files in master_list:
+        
+        output=[]
+
+        supernova_name = name from file name
+        obv_date = date from file name
+
+        output.append(print_day_folder(obv_date))
+            # mkdir day_folder
+            # cd day_folder
+
+        for obv in file:
+            telescope = telescope from that row
+            filter = filter from that row
+            img_range_start = ...
+            img_range_end = ...
+
+            output.append(print_mosaic_folder(telescope, filter)) 
+                # mkdir folder_name
+                # cd folder_name
+            
+            output.append(print_stackX2(telescope, date, img_range_start, img_range_end, fwhm_lim))
+                # python /mnt/64bin/stackX2.py telescope date img_range_start img_range_end fwhm_lim
+
+            output.append(print_rename_copy(supernova_name, obv_date, telescope, filter))
+                # rename amosaic.fits new_file_name
+                # copy new_file_name new_dir
+
+            output.append("cd ../..")
+
+            write_to_file(master_output, output)
+            
+
+            
+
+
+
+
+
+
+    num_rows = len(text_file)
+    
+    for num in num_rows:
+        if date != previous date:
+            date_list = []
+            date_list.append(row)
+        elif date == previous date:
+            date_list.append(row)
+
+    #now we have every observation grouping in separate lists by date
+
+    
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
