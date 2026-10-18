@@ -48,9 +48,6 @@ define table2 in db2
 
 
 
-
-
-
 func1 - 
 func2 - requests.get
 func3 - BeautifulSoup
