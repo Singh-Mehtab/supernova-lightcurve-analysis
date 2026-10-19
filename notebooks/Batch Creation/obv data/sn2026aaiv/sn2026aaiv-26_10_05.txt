@@ -1,0 +1,2 @@
+telescope band exposure count start end mean_fwhm
+pt5m B 60.0 6 0882647 0882652 2.48

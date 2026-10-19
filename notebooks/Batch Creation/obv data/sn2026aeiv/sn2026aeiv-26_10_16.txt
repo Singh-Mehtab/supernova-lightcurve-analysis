@@ -1,0 +1,5 @@
+telescope band exposure count start end mean_fwhm
+east_16 B 120.0 4 0171 0174 2.62
+east_16 V 120.0 4 0134 0137 2.55
+east_16 r 120.0 6 0138 0143 2.33
+east_16 r 120.0 4 0167 0170 2.58
