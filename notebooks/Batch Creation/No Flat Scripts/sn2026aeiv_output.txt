@@ -362,13 +362,13 @@ else
     echo "No amosaic.fits; skipping this group"
 endif
 cd ..
-mkdir east_16_r
-cd east_16_r
+mkdir east_16_r-2
+cd east_16_r-2
 
 python /mnt/64bin/stackX2.py east_16 26_10_16 0167 0170 5.0
 if ( -f amosaic.fits ) then
-    mv amosaic.fits sn2026aeiv-26_10_16-east_16-r-mosaic.fits
-    cp sn2026aeiv-26_10_16-east_16-r-mosaic.fits ../../../../output_mosaics/
+    mv amosaic.fits sn2026aeiv-26_10_16-east_16-r-2-mosaic.fits
+    cp sn2026aeiv-26_10_16-east_16-r-2-mosaic.fits ../../../../output_mosaics/
 else
     echo "No amosaic.fits; skipping this group"
 endif
