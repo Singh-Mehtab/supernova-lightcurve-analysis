@@ -5,7 +5,7 @@ import calendar as pycalendar
 from datetime import date
 
 
-database_path = Path("/Users/mehtabsingh/Desktop/Desktop/Durham/3rd Year/Modules/Astro Lab/Astrolab_Code/Durham_Observation_Database.db").resolve()
+database_path = Path("/Users/mehtabsingh/Desktop/Desktop/Durham/3rd Year/Modules/Astro Lab/Astrolab_Code/databases/Durham_Observation_Database.db").resolve()
 
 conn = sqlite3.connect(database_path)
 
