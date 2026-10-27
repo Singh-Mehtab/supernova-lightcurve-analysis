@@ -1,0 +1,26 @@
+1. Each individual exposure to database1
+
+2. Exposure groups to database2
+
+3. Check which exposure groups have no mosaic
+    - create script to make flats and non flats mosaics
+    - upload batch script to lab computer, create mosaics
+    - bring mosaics back to local computer, update db
+
+4. check which exposure groups have no zero points
+    - calc non flat zeropoints, update db
+    - calc flat zeropoints, update db
+
+5. check which groups have no magnitude
+    - calc flat mag, update db
+    - calc non flat mag, update db
+
+6. plot updated charts
+    - output charts (files and/or html page)
+
+
+db2 table headers should be
+
+Supernova	Date Obs	Telescope	Img Start	Img End	Exposures	Band	Exp Time	NF Mosaic Status	F Mosaic Status	Zpt_mean-F	Zpt_median-F	Zpt_mean_weighted-F	Zpt_stdev-F	Zpt_err-F	Mag-F	Mag_err-F	Zpt_mean-NF	Zpt_median-MF	Zpt_mean_weighted-NF	Zpt_stdev-NF	Zpt_err-NF	Mag-NF	Mag_err-NF
+
+

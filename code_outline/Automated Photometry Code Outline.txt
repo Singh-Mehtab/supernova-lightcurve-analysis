@@ -1,0 +1,34 @@
+
+
+For each given image
+    load the image
+    centroid on supernova
+    conduct photometry
+    export magnitude
+
+
+
+
+Main function takes image filename from list of files 
+
+
+
+
+get_centroid(image_data, obj_RA, obj_Dec)
+    returns supernova_xy_center
+
+
+make_apertures(target_coords, aperture_radius, annulus_inner, annulus_outer)
+    returns apertures, annuli
+
+
+plot_zoom_section(image_data, target_coords, apertures, annuli)
+    returns plot
+
+conduct_photometry(image_data, aperture, annuli, zpt)
+    returns obj_mag
+
+
+
+
+
