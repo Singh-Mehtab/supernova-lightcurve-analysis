@@ -1,0 +1,26 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58516.909204 from DATE-OBS'. [astropy.wcs.wcs]
+west-14 19_02_02 195 203 5.0
+filepath is:  /mnt/archive/west-14/2019/19_02_02/
+files to stack:
+['/mnt/archive/west-14/2019/19_02_02/d0195.fits', '/mnt/archive/west-14/2019/19_02_02/d0196.fits', '/mnt/archive/west-14/2019/19_02_02/d0197.fits', '/mnt/archive/west-14/2019/19_02_02/ad0198.fits', '/mnt/archive/west-14/2019/19_02_02/ad0199.fits', '/mnt/archive/west-14/2019/19_02_02/ad0200.fits', '/mnt/archive/west-14/2019/19_02_02/d0201.fits', '/mnt/archive/west-14/2019/19_02_02/ad0202.fits', '/mnt/archive/west-14/2019/19_02_02/d0203.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_west-14_19_01_17_B.fits
+    source        target        Pscale      A   xoff   yoff
+14-inch West Dome
+stars found
+       /mnt/archive/west-14/2019/19_02_02/d0195.fits 0 0 5.302221110172919
+14-inch West Dome
+stars found
+       /mnt/archive/west-14/2019/19_02_02/d0196.fits -1 -2 5.965955231880913
+14-inch West Dome
+stars found
+       /mnt/archive/west-14/2019/19_02_02/d0197.fits -1 -4 4.521807156391628
+stars found
+Traceback (most recent call last):
+  File "/mnt/64bin/stackX2.py", line 420, in <module>
+    seeing_asec = getPSF(img2,spix,xc,yc)
+  File "/mnt/64bin/stackX2.py", line 171, in getPSF
+    cen_val = sub[ycs,xcs]
+              ~~~^^^^^^^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0

@@ -1,0 +1,25 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.007735 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.007735 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.007735 from DATE-OBS'. [astropy.wcs.wcs]
+Filter: V
+Filename contains 'mosaic'.  Will not flatfield. 
+No automag_driver in current directory.  Using default at /mnt/64bin/auto_astrom/automag_driver
+automag_driver: using file /mnt/64bin/auto_astrom/automag_driver
+aperture parameters; rad, r_in, r_out: 5.0, 15.0, 25.0
+pixel scale is: 0.5589142858910194
+RA/Dec center of frame: 157.33866706247443 29.50688773993534
+There are 4 matches within 3.0arcsec and above SNR=7.0
+Warning: <5 stars detected within matching and magnitude limits.  This may not be doing something sensible...
+
+Zeropoint: 
+mean    median   mean_weighted  stdev  zpt_err
+25.764  25.790   25.712         0.261  0.131
+

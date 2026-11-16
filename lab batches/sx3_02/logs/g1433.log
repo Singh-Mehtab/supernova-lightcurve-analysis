@@ -1,0 +1,12 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+draco2 19_11_20 100 115 5.0
+filepath is:  /mnt/archive/draco2/2019/19_11_20/
+files to stack:
+['/mnt/archive/draco2/2019/19_11_20/ad0100.fits', '/mnt/archive/draco2/2019/19_11_20/ad0101.fits', '/mnt/archive/draco2/2019/19_11_20/ad0102.fits', '/mnt/archive/draco2/2019/19_11_20/ad0103.fits', '/mnt/archive/draco2/2019/19_11_20/ad0104.fits', '/mnt/archive/draco2/2019/19_11_20/ad0105.fits', '/mnt/archive/draco2/2019/19_11_20/ad0106.fits', '/mnt/archive/draco2/2019/19_11_20/ad0107.fits', '/mnt/archive/draco2/2019/19_11_20/ad0108.fits', '/mnt/archive/draco2/2019/19_11_20/ad0109.fits', '/mnt/archive/draco2/2019/19_11_20/ad0110.fits', '/mnt/archive/draco2/2019/19_11_20/ad0111.fits', '/mnt/archive/draco2/2019/19_11_20/ad0112.fits', '/mnt/archive/draco2/2019/19_11_20/ad0113.fits', '/mnt/archive/draco2/2019/19_11_20/ad0114.fits', '/mnt/archive/draco2/2019/19_11_20/ad0115.fits']
+Skipping flat /mnt/share/flatfields/mich2019_flats/draco2/B/master_flat.fits: file does not exist
+Skipping flat /mnt/share/flatfields/Epiph2019/Draco2/b/master_flat.fits: file does not exist
+Skipping flat /mnt/share/flatfields/2018_Mich_Flats/draco2/b/master_flat.fits: file does not exist
+Error. no suitable flat found for draco2 19_11_20 B
+Give a flat path as the 6th argument, or none to stack without a flat. aborting
+stackX3 exit status: 1

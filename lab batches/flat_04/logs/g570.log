@@ -1,0 +1,45 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: NoDetectionsWarning: Sources were found, but none pass the sharpness, roundness, or peakmax criteria [photutils.detection.daofinder]
+/mnt/64bin/stackX2.py:494: RuntimeWarning: All-NaN slice encountered
+  mosaic = np.nanmedian(mosaic_cube,axis=2)
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_42439
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2019-04-09T21:21:00.772
+157.3299
+29.508
+Using a pixel scale of 0.9255
+Input frame is 1108 x  834
+Using ( 157.3299 29.508 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2019.27074
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+0 stars found by Sextractor
+Less than 5 stars, exiting
+cp: cannot stat 'amosaic.fits': No such file or directory
+east-14 19_04_09 17 18 5.0
+filepath is:  /mnt/archive/east-14/2019/19_04_09/
+files to stack:
+['/mnt/archive/east-14/2019/19_04_09/d0017.fits', '/mnt/archive/east-14/2019/19_04_09/d0018.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_east-14_19_01_17_R.fits
+    source        target        Pscale      A   xoff   yoff
+14-inch East Dome
+error: no sources found
+14-inch East Dome
+stars found
+       /mnt/archive/east-14/2019/19_04_09/d0018.fits 0 0 2.5551105570268233
+there are 2 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+666
+mosaic.fits written to disk as /home/astrolab/tmp//mosaic.fits
+   diagnostic plots written to:
+            /home/astrolab/tmp/img_mosaic_inprops.png
+   and
+           /home/astrolab/tmp/img_mosaic.png

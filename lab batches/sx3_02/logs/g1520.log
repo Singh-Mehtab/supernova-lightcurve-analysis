@@ -1,0 +1,69 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_37829
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2020-02-17T21:59:46.127
+SCIENCE True
+['3', '37', '48.70']
+['3', '16', '19.6']
+Using a pixel scale of 0.556
+Input frame is 1092 x  736
+Using ( 54.45291666666667 3.272111111111111 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2020.13119
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+0 stars found by Sextractor
+Less than 5 stars, exiting
+pt5m 20_02_17 612134 612140 5.0
+filepath is:  /mnt/archive/pt5m/2020/20_02_17/
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+files to stack:
+['/mnt/archive/pt5m/2020/20_02_17/dbr0612134.fits', '/mnt/archive/pt5m/2020/20_02_17/dbr0612135.fits', '/mnt/archive/pt5m/2020/20_02_17/dbr0612136.fits', '/mnt/archive/pt5m/2020/20_02_17/dbr0612137.fits', '/mnt/archive/pt5m/2020/20_02_17/dbr0612138.fits', '/mnt/archive/pt5m/2020/20_02_17/dbr0612139.fits', '/mnt/archive/pt5m/2020/20_02_17/dbr0612140.fits']
+Flatfield found: /mnt/archive/pt5m/2020/20_02_17/calibs/Bflatnorm2x2.fits
+Flat chosen by: same night
+    source        target        Pscale      A   xoff   yoff
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_02_17/dbr0612134.fits 0 0 1.6451960162593433
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_02_17/dbr0612135.fits 0 0 1.4999332142760267
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_02_17/dbr0612136.fits 0 0 1.360467399121931
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_02_17/dbr0612137.fits 0 0 1.202251650550158
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_02_17/dbr0612138.fits 0 0 1.3261269783476737
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_02_17/dbr0612139.fits 0 0 1.4570937360057064
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_02_17/dbr0612140.fits 0 0 1.5000115396167737
+there are 7 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+mosaic.fits written to disk as /run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/working/g1520/mosaic.fits
+666
+   diagnostic plots written to:
+            ./img_mosaic_inprops.png
+   and
+           ./img_mosaic.png
+Error. astrometry failed: no new amosaic.fits was written
+stackX3 exit status: 1

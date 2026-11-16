@@ -1,0 +1,242 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.871768 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.871768 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.873974 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.871768 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.876182 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.871768 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.878390 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.871768 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58876.880599 from DATE-OBS'. [astropy.wcs.wcs]
+/run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/stackX3.py:905: RuntimeWarning: All-NaN slice encountered
+  mosaic = np.nanmedian(mosaic_cube,axis=2)
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_30226
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2020-01-28T20:55:20.727
+54.45398
+3.27178
+Using a pixel scale of 0.556
+Input frame is 1097 x  740
+Using ( 54.45398 3.27178 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2020.07631
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+31 stars found by Sextractor
+--------------------------------------------------------------------
+First pass to lock onto field
+Using centre:  54.45398 3.27178
+/mnt/64bin/auto_astrom/refcat 54.45398 3.27178 -rad 0.5 > refcat_stars
+Running 'starfit' to auto id the stars
+/mnt/64bin/auto_astrom/starfit -xpix 1097 -ypix 740 -scale 0.556 -final -plot
+starfit returns:  03h38:02.59+0.005X-0.5594Y +03d11:10.5+0.004Y+0.5586X: 18/25/122*,0.14"RMS
+starfit matched 18  stars
+New centre:  54.44941 3.285965
+--------------------------------------------------------------------
+REFCAT processing ...
+Looking for REFCAT stars at 54.44941 3.285965   2020.07631
+/mnt/64bin/auto_astrom/refcat 54.44941 3.285965 -rad 0.5 -all
+found 126 stars
+126 REFCAT stars found
+88 537.11 667.96 54.40767 3.27043 54.40767169728949 3.2704248753666945 0.01943109209648391
+23 65.03 649.03 54.41006 3.19713 54.4100607132671 3.1971382941347497 0.029968748894686856
+89 1039.70 628.02 54.4145 3.34835 54.41449871171294 3.3483466618513615 0.012878372018800188
+24 146.79 615.70 54.41534 3.20979 54.4153378884328 3.2097848796379442 0.019934655054659023
+90 88.21 610.81 54.41596 3.20069 54.41595854988843 3.2006820618386387 0.029048826753696407
+91 528.92 558.35 54.4247 3.26902 54.424697980283035 3.2689981676275552 0.07893105524194667
+29 1061.75 514.96 54.43212 3.35164 54.43211675333364 3.3516214998091667 0.06761504193810615
+94 860.56 522.06 54.43071 3.32045 54.43071726126607 3.3204390321434443 0.04732911382522677
+31 542.81 402.42 54.44884 3.27102 54.4488437 3.271023 0.017131396875923924
+95 796.64 397.66 54.44998 3.31037 54.44998134939417 3.310365845722389 0.015722076493781108
+96 749.27 370.08 54.45424 3.30298 54.45424018592893 3.3029639854523056 0.057656244215993614
+32 501.47 340.50 54.45855 3.26447 54.45854773392175 3.264481561124333 0.04240947522608213
+33 763.58 293.84 54.46612 3.30509 54.46611812682914 3.3050897567767503 0.0067889014179531755
+37 1055.87 195.64 54.48177 3.35031 54.48176601781588 3.350314626354528 0.021959051956392726
+101 895.69 167.40 54.48588 3.32543 54.48588270152827 3.325432076246389 0.012252961966621873
+102 552.84 141.37 54.48954 3.27222 54.48953688518512 3.272213599936389 0.02561603657239774
+40 694.36 107.57 54.49494 3.29411 54.49493708553502 3.2941201890601386 0.038146923414733136
+104 589.55 59.60 54.50224 3.27782 54.50223656552644 3.2778084355095554 0.04342359411814671
+18 Excellent, we have  matched 18 stars in REFCAT, writing 'astrom.dat'
+Running Starlink's astrom to tune-up the astrometry fit ...
+astrom returns rms residuals of    0.123  0.051  0.133 arcsec
+Copying input file and adding/updating the astrometry solution in fits header
+Copying derived solution to image header
+Using  asc02.fits  solution
+03:37:48.956 +03:16:18.55 J2000  548.500  370.000 
+ 54.45398   3.27182 J2000  548.500  370.000 
+Updating image centre from ( 54.44941 3.285965 ) to ( 54.45398 3.27182 )
+Calculating (ra,dec) of objects in asc_sextr.dat
+Looking for more stars to include in astrometry fit
+Applying a S/N cut of  37.8958131846748
+22 stars in Sextractor catalogue
+126 stars in REFCAT catalogue
+Matched  20  stars in asc_sextr.cat within 1 arcsec of REFCAT positions
+Mag Zeropoint: 25.7625      rms: 0.05799999999999805
+Writing new astrom.dat
+Using  20  stars
+Looking for unknown/extra objects to include in 'astrom.dat'
+Added  9  non-matched stars
+Running Starlink's astrom to tune-up (2nd pass) the astrometry fit ...
+astrom returns: 
+
+ FITS-WCS header for  4-component solution in file asc01.fits
+ Residuals, 4-coefficient fit:
+
+                n           dX        dY        dR
+
+                1        -0.080    -0.147     0.168
+                2        -0.112    +0.055     0.125
+                3        -0.099    +0.046     0.110
+                4        -0.062    +0.060     0.086
+                5        +0.371    -0.154     0.401
+                6        -0.106    +0.030     0.110
+                7        -0.079    +0.038     0.088
+                8        -0.155    +0.051     0.163
+                9        +0.083    +0.030     0.088
+               10        +0.002    -0.004     0.005
+               11        +0.003    +0.037     0.037
+               12        -0.004    +0.070     0.071
+               13        +0.107    -0.030     0.111
+               14        +0.075    -0.025     0.079
+               15        -0.037    +0.039     0.053
+               16        +0.040    +0.038     0.056
+               17        +0.107    +0.033     0.112
+               18        -0.024    -0.008     0.025
+               19        +0.171    -0.009     0.171
+               20        -0.200    -0.151     0.251
+
+                RMS :     0.126     0.069     0.144
+
+
+ FITS-WCS header for  6-component solution in file asc02.fits
+ Residuals, 6-coefficient fit:
+
+                n           dX        dY        dR
+
+                1        -0.066    -0.158     0.171
+                2        -0.118    +0.037     0.123
+                3        -0.104    +0.030     0.108
+                4        -0.039    +0.063     0.074
+                5        +0.368    -0.157     0.400
+                6        -0.115    +0.028     0.118
+                7        -0.081    +0.043     0.092
+                8        -0.152    +0.064     0.165
+                9        +0.067    +0.039     0.078
+               10        +0.015    -0.015     0.021
+               11        +0.033    +0.036     0.049
+               12        +0.002    +0.063     0.063
+               13        +0.123    -0.031     0.126
+               14        +0.081    -0.023     0.084
+               15        -0.034    +0.041     0.053
+               16        +0.023    +0.033     0.041
+               17        +0.103    +0.044     0.112
+               18        -0.043    -0.002     0.043
+               19        +0.148    -0.001     0.148
+               20        -0.210    -0.133     0.249
+
+                RMS :     0.126     0.068     0.143
+
+
+ Unknowns, 6-coefficient model:
+
+                 +804.915 +573.650   ->   03 37 41.440  +03 18 42.69
+                 +356.172 +551.461   ->   03 37 42.133  +03 14 31.93
+                 +631.110 +542.086   ->   03 37 42.565  +03 17 05.47
+                 +947.197 +480.806   ->   03 37 44.945  +03 20 01.76
+                 +550.180 +377.478   ->   03 37 48.679  +03 16 19.53
+                 +609.513 +419.565   ->   03 37 47.128  +03 16 52.86
+                 +215.503 +387.294   ->   03 37 48.213  +03 13 12.63
+                 +307.603 +355.094   ->   03 37 49.441  +03 14 03.93
+                 +781.326 +101.844   ->   03 37 59.029  +03 18 27.42
+--------------------------------------------------- finished
+
+astrom returns rms residuals of    0.126  0.068  0.143 arcsec
+Running Starlink's astrom to tune-up (3rd pass) the astrometry fit ...
+python /mnt/64bin/auto_astrom/cull_astrom.py3 > culled_astrom.dat
+
+astrom returns rms residuals of    0.126  0.068  0.143 arcsec
+Copying input file and adding/updating the astrometry solution in fits header
+Copying derived solution to image header
+LONG_OBS not in HEADER
+LAT_OBS not in HEADER
+DETECTOR not in HEADER
+GAIN not in HEADER
+RDNOISE not in HEADER
+CCD_TEMP not in HEADER
+CCD_TSET not in HEADER
+HEATSINK not in HEADER
+QSIPOWER not in HEADER
+OBSERVER not in HEADER
+AZIMUTH not in HEADER
+ALTITUDE not in HEADER
+HA not in HEADER
+TCFPOS not in HEADER
+TCFTEMP not in HEADER
+MJD-OBS not in HEADER
+Updating image centre from ( 54.44941 3.285965 ) to ( 54.45399 3.27182 )
+amosaic.fits written
+2020-01-28T20:55:21.227000  804.915  573.650    03 37 41.4396 +03 18 42.693   17.901   0.048
+2020-01-28T20:55:21.227000  356.172  551.461    03 37 42.1327 +03 14 31.931   17.825   0.045
+2020-01-28T20:55:21.227000  631.110  542.086    03 37 42.5647 +03 17 05.468   17.776   0.046
+2020-01-28T20:55:21.227000  947.197  480.806    03 37 44.9450 +03 20 01.760   17.758   0.042
+2020-01-28T20:55:21.227000  550.180  377.478    03 37 48.6795 +03 16 19.532   17.154   0.023
+2020-01-28T20:55:21.227000  609.513  419.565    03 37 47.1277 +03 16 52.862   18.110   0.049
+2020-01-28T20:55:21.227000  215.503  387.294    03 37 48.2128 +03 13 12.629   17.921   0.052
+2020-01-28T20:55:21.227000  307.603  355.094    03 37 49.4413 +03 14 03.931   17.605   0.039
+2020-01-28T20:55:21.227000  781.326  101.844    03 37 59.0291 +03 18 27.423   18.386   0.082
+File: mosaic_astrom_new lists unknown objects in image
+pt5m 20_01_28 606009 606013 5.0
+filepath is:  /mnt/archive/pt5m/2020/20_01_28/
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+files to stack:
+['/mnt/archive/pt5m/2020/20_01_28/adbr0606009.fits', '/mnt/archive/pt5m/2020/20_01_28/adbr0606010.fits', '/mnt/archive/pt5m/2020/20_01_28/adbr0606011.fits', '/mnt/archive/pt5m/2020/20_01_28/adbr0606012.fits', '/mnt/archive/pt5m/2020/20_01_28/adbr0606013.fits']
+Flatfield found: /mnt/archive/pt5m/2020/20_01_28/calibs/Rflatnorm2x2.fits
+Flat chosen by: same night
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/pt5m/2020/20_01_28/adbr0606009.fits 0 0 2.974191953365082
+         WCS predicts offset -0.0 -0.0
+stars found
+       /mnt/archive/pt5m/2020/20_01_28/adbr0606010.fits 3 -1 2.3562858389020307
+         WCS predicts offset 2.5 -0.9
+stars found
+       /mnt/archive/pt5m/2020/20_01_28/adbr0606011.fits 3 2 2.4398442253256256
+         WCS predicts offset 2.3 1.7
+stars found
+       /mnt/archive/pt5m/2020/20_01_28/adbr0606012.fits -2 -2 2.5487452383849116
+         WCS predicts offset -1.3 -1.9
+stars found
+       /mnt/archive/pt5m/2020/20_01_28/adbr0606013.fits 0 -2 2.8000955736847235
+         WCS predicts offset -0.6 -2.4
+there are 5 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+mosaic.fits written to disk as /run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/working/g1495/mosaic.fits
+666
+   diagnostic plots written to:
+            ./img_mosaic_inprops.png
+   and
+           ./img_mosaic.png
+astrometry done: amosaic.fits written
+stackX3 exit status: 0

@@ -1,0 +1,70 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58569.888072 from DATE-OBS'. [astropy.wcs.wcs]
+east-14 19_03_27 26 37 5.0
+filepath is:  /mnt/archive/east-14/2019/19_03_27/
+files to stack:
+['/mnt/archive/east-14/2019/19_03_27/ad0026.fits', '/mnt/archive/east-14/2019/19_03_27/ad0027.fits', '/mnt/archive/east-14/2019/19_03_27/ad0028.fits', '/mnt/archive/east-14/2019/19_03_27/ad0029.fits', '/mnt/archive/east-14/2019/19_03_27/ad0030.fits', '/mnt/archive/east-14/2019/19_03_27/ad0031.fits', '/mnt/archive/east-14/2019/19_03_27/ad0032.fits', '/mnt/archive/east-14/2019/19_03_27/ad0033.fits', '/mnt/archive/east-14/2019/19_03_27/ad0034.fits', '/mnt/archive/east-14/2019/19_03_27/ad0035.fits', '/mnt/archive/east-14/2019/19_03_27/ad0036.fits', '/mnt/archive/east-14/2019/19_03_27/ad0037.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_east-14_19_01_17_R.fits
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0026.fits 0 0 5.964448768385201
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0027.fits 0 0 5.306235240574373
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0028.fits 0 0 5.801253592193484
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0029.fits 0 0 5.076631347835226
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0030.fits 0 0 6.771447214261992
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0031.fits -1 0 6.333567015383091
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0032.fits -1 0 5.85741209812721
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0033.fits -1 1 5.27108049213235
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0034.fits -2 1 5.155682358646247
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0035.fits -2 1 5.130916163485822
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0036.fits -3 1 6.080335324568255
+stars found
+       /mnt/archive/east-14/2019/19_03_27/ad0037.fits -3 1 6.51980361731159
+not enough good frames with seeing <5.0"
+aborting

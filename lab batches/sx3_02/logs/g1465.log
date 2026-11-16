@@ -1,0 +1,105 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.830549 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.830549 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.854767 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.830549 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.857023 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.830549 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.859227 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.830549 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.861438 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.830549 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.863645 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.830549 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58868.865856 from DATE-OBS'. [astropy.wcs.wcs]
+/run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/stackX3.py:905: RuntimeWarning: All-NaN slice encountered
+  mosaic = np.nanmedian(mosaic_cube,axis=2)
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_23660
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2020-01-20T19:55:59.473
+54.46795
+3.23829
+Using a pixel scale of 0.556
+Input frame is 1435 x  819
+Using ( 54.46795 3.23829 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2020.05429
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+50 stars found by Sextractor
+--------------------------------------------------------------------
+First pass to lock onto field
+Using centre:  54.46795 3.23829
+/mnt/64bin/auto_astrom/refcat 54.46795 3.23829 -rad 0.5 > refcat_stars
+Running 'starfit' to auto id the stars
+/mnt/64bin/auto_astrom/starfit -xpix 1435 -ypix 819 -scale 0.556 -final -plot
+starfit returns:  Error, starfit: Found only 1 stars in second star match
+ERROR: starfit failed to match the stars, Ugh!
+pt5m 20_01_20 604306 604312 5.0
+filepath is:  /mnt/archive/pt5m/2020/20_01_20/
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+files to stack:
+['/mnt/archive/pt5m/2020/20_01_20/adbr0604306.fits', '/mnt/archive/pt5m/2020/20_01_20/adbr0604307.fits', '/mnt/archive/pt5m/2020/20_01_20/adbr0604308.fits', '/mnt/archive/pt5m/2020/20_01_20/adbr0604309.fits', '/mnt/archive/pt5m/2020/20_01_20/adbr0604310.fits', '/mnt/archive/pt5m/2020/20_01_20/adbr0604311.fits', '/mnt/archive/pt5m/2020/20_01_20/adbr0604312.fits']
+Flatfield found: /mnt/archive/pt5m/2020/20_01_20/calibs/Iflatnorm2x2.fits
+Flat chosen by: same night
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/pt5m/2020/20_01_20/adbr0604306.fits 0 0 1.6073934645156318
+         WCS predicts offset 0.0 -0.0
+stars found
+       /mnt/archive/pt5m/2020/20_01_20/adbr0604307.fits 20 33 2.0310168010502294
+         WCS predicts offset 20.0 33.2
+stars found
+       /mnt/archive/pt5m/2020/20_01_20/adbr0604308.fits 343 77 2.9906970509517783
+         WCS predicts offset -218.4 -93.9
+         WARNING: measured offset differs from WCS by 587.0 pixels
+stars found
+       /mnt/archive/pt5m/2020/20_01_20/adbr0604309.fits 343 82 3.456770413246638
+         WCS predicts offset -219.1 -89.1
+         WARNING: measured offset differs from WCS by 587.6 pixels
+stars found
+       /mnt/archive/pt5m/2020/20_01_20/adbr0604310.fits 343 83 2.8719360854327047
+         WCS predicts offset -217.7 -87.5
+         WARNING: measured offset differs from WCS by 585.9 pixels
+stars found
+       /mnt/archive/pt5m/2020/20_01_20/adbr0604311.fits 342 82 2.4947499951444785
+         WCS predicts offset -218.9 -88.5
+         WARNING: measured offset differs from WCS by 586.1 pixels
+stars found
+       /mnt/archive/pt5m/2020/20_01_20/adbr0604312.fits 342 82 3.583974934618525
+         WCS predicts offset -218.8 -88.0
+         WARNING: measured offset differs from WCS by 586.3 pixels
+there are 7 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+mosaic.fits written to disk as /run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/working/g1465/mosaic.fits
+WARNING: diagnostic plots failed (minvalue must be less than or equal to maxvalue). Continuing without them.
+Error. astrometry failed: no new amosaic.fits was written
+stackX3 exit status: 1

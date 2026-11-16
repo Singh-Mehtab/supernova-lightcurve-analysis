@@ -1,0 +1,129 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58567.975017 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58567.975017 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58567.975017 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58567.975017 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58567.975017 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58567.975017 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58567.975017 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58567.975017 from DATE-OBS'. [astropy.wcs.wcs]
+/mnt/64bin/stackX2.py:494: RuntimeWarning: All-NaN slice encountered
+  mosaic = np.nanmedian(mosaic_cube,axis=2)
+east-14 19_03_25 19 26 5.0
+filepath is:  /mnt/archive/east-14/2019/19_03_25/
+files to stack:
+['/mnt/archive/east-14/2019/19_03_25/ad0019.fits', '/mnt/archive/east-14/2019/19_03_25/ad0020.fits', '/mnt/archive/east-14/2019/19_03_25/ad0021.fits', '/mnt/archive/east-14/2019/19_03_25/ad0022.fits', '/mnt/archive/east-14/2019/19_03_25/ad0023.fits', '/mnt/archive/east-14/2019/19_03_25/ad0024.fits', '/mnt/archive/east-14/2019/19_03_25/ad0025.fits', '/mnt/archive/east-14/2019/19_03_25/ad0026.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_east-14_19_01_17_R.fits
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/east-14/2019/19_03_25/ad0019.fits 0 0 5.572410841525832
+stars found
+       /mnt/archive/east-14/2019/19_03_25/ad0020.fits 0 0 5.5017659640194605
+stars found
+       /mnt/archive/east-14/2019/19_03_25/ad0021.fits 0 0 5.560777678665179
+stars found
+       /mnt/archive/east-14/2019/19_03_25/ad0022.fits -1 1 5.969466280180346
+stars found
+       /mnt/archive/east-14/2019/19_03_25/ad0023.fits -1 0 4.979987911715133
+stars found
+       /mnt/archive/east-14/2019/19_03_25/ad0024.fits -2 1 5.479494927949602
+stars found
+       /mnt/archive/east-14/2019/19_03_25/ad0025.fits -2 1 5.026473563112417
+stars found
+       /mnt/archive/east-14/2019/19_03_25/ad0026.fits -2 1 5.588887548721663
+there are 1 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+Traceback (most recent call last):
+  File "/mnt/64bin/stackX2.py", line 552, in <module>
+    plt.savefig(tmpdir+'img_mosaic.png')
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/pyplot.py", line 1250, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "/usr/lib64/python3.14/site-packages/matplotlib/figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/backends/backend_qtagg.py", line 75, in print_figure
+    super().print_figure(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/backend_bases.py", line 2186, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "/usr/lib64/python3.14/site-packages/matplotlib/backend_bases.py", line 2042, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/backends/backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/backends/backend_agg.py", line 429, in _print_pil
+    FigureCanvasAgg.draw(self)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/backends/backend_agg.py", line 382, in draw
+    self.figure.draw(self.renderer)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/artist.py", line 94, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/usr/lib64/python3.14/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+  File "/usr/lib64/python3.14/site-packages/matplotlib/figure.py", line 3257, in draw
+    mimage._draw_list_compositing_images(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        renderer, self, artists, self.suppressComposite)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/image.py", line 134, in _draw_list_compositing_images
+    a.draw(renderer)
+    ~~~~~~^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+  File "/usr/lib64/python3.14/site-packages/matplotlib/axes/_base.py", line 3226, in draw
+    mimage._draw_list_compositing_images(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        renderer, self, artists, self.get_figure(root=True).suppressComposite)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/image.py", line 134, in _draw_list_compositing_images
+    a.draw(renderer)
+    ~~~~~~^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+  File "/usr/lib64/python3.14/site-packages/matplotlib/image.py", line 609, in draw
+    im, l, b, trans = self.make_image(
+                      ~~~~~~~~~~~~~~~^
+        renderer, renderer.get_image_magnification())
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/image.py", line 912, in make_image
+    return self._make_image(self._A, bbox, transformed_bbox, clip,
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            magnification, unsampled=unsampled)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/image.py", line 503, in _make_image
+    A = self.to_rgba(A)
+  File "/usr/lib64/python3.14/site-packages/matplotlib/colorizer.py", line 367, in to_rgba
+    return self._colorizer.to_rgba(x, alpha=alpha, bytes=bytes, norm=norm)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/matplotlib/colorizer.py", line 157, in to_rgba
+    x = self.norm(x)
+  File "/usr/lib64/python3.14/site-packages/matplotlib/colors.py", line 2286, in __call__
+    raise ValueError("minvalue must be less than or equal to maxvalue")
+ValueError: minvalue must be less than or equal to maxvalue

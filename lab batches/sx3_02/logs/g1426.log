@@ -1,0 +1,11 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+far-east-16 19_11_17 7 10 5.0
+filepath is:  /mnt/archive/far-east-16/2019/19_11_17/
+files to stack:
+['/mnt/archive/far-east-16/2019/19_11_17/ad0007.fits', '/mnt/archive/far-east-16/2019/19_11_17/ad0008.fits', '/mnt/archive/far-east-16/2019/19_11_17/ad0009.fits', '/mnt/archive/far-east-16/2019/19_11_17/ad0010.fits']
+Skipping flat /mnt/share/flatfields/Epiph2019/FarEast16/v/master_flat.fits: file does not exist
+Skipping flat /mnt/share/flatfields/2018_Mich_Flats/FE16/v/master_flat.fits: file does not exist
+Error. no suitable flat found for far-east-16 19_11_17 V
+Give a flat path as the 6th argument, or none to stack without a flat. aborting
+stackX3 exit status: 1

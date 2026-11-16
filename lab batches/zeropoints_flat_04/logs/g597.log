@@ -1,0 +1,27 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58524.833349 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: Input data contains invalid values (NaNs or infs), which were automatically clipped. [astropy.stats.sigma_clipping]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58524.833349 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: Input data contains invalid values (NaNs or infs), which were automatically clipped. [astropy.stats.sigma_clipping]
+WARNING: Input data contains invalid values (NaNs or infs), which were automatically clipped. [astropy.stats.sigma_clipping]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58524.833349 from DATE-OBS'. [astropy.wcs.wcs]
+Filter: r
+Filename contains 'mosaic'.  Will not flatfield. 
+No automag_driver in current directory.  Using default at /mnt/64bin/auto_astrom/automag_driver
+automag_driver: using file /mnt/64bin/auto_astrom/automag_driver
+aperture parameters; rad, r_in, r_out: 5.0, 15.0, 25.0
+pixel scale is: 0.8312502696013427
+RA/Dec center of frame: 157.32633526604747 29.509673786294968
+There are 15 matches within 3.0arcsec and above SNR=7.0
+
+Zeropoint: 
+mean    median   mean_weighted  stdev  zpt_err
+25.978  26.194   25.746         0.266  0.069
+

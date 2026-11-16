@@ -1,0 +1,58 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58583.883142 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58583.883142 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58583.883142 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58583.883142 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58583.883142 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58583.883142 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58583.883142 from DATE-OBS'. [astropy.wcs.wcs]
+east-14 19_04_10 114 123 5.0
+filepath is:  /mnt/archive/east-14/2019/19_04_10/
+files to stack:
+['/mnt/archive/east-14/2019/19_04_10/ad0114.fits', '/mnt/archive/east-14/2019/19_04_10/ad0115.fits', '/mnt/archive/east-14/2019/19_04_10/ad0116.fits', '/mnt/archive/east-14/2019/19_04_10/ad0117.fits', '/mnt/archive/east-14/2019/19_04_10/ad0118.fits', '/mnt/archive/east-14/2019/19_04_10/d0119.fits', '/mnt/archive/east-14/2019/19_04_10/ad0120.fits', '/mnt/archive/east-14/2019/19_04_10/ad0121.fits', '/mnt/archive/east-14/2019/19_04_10/ad0122.fits', '/mnt/archive/east-14/2019/19_04_10/ad0123.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_east-14_19_01_17_R.fits
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/east-14/2019/19_04_10/ad0114.fits 0 0 4.504152814806517
+stars found
+       /mnt/archive/east-14/2019/19_04_10/ad0115.fits 1 0 4.475087834753921
+stars found
+       /mnt/archive/east-14/2019/19_04_10/ad0116.fits 2 0 4.766991855660572
+stars found
+       /mnt/archive/east-14/2019/19_04_10/ad0117.fits 2 -1 5.1559397014788635
+stars found
+       /mnt/archive/east-14/2019/19_04_10/ad0118.fits 3 -2 5.676249208394935
+14-inch East Dome
+stars found
+       /mnt/archive/east-14/2019/19_04_10/d0119.fits 294 -105 2.979871877859295
+stars found
+       /mnt/archive/east-14/2019/19_04_10/ad0120.fits 552 0 4.410826372215953
+stars found
+       /mnt/archive/east-14/2019/19_04_10/ad0121.fits 552 0 5.310213026364501
+Traceback (most recent call last):
+  File "/mnt/64bin/stackX2.py", line 397, in <module>
+    this_xoff,this_yoff = image_registration.cross_correlation_shifts(target,source)#,target)
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/image_registration/cross_correlation_shifts.py", line 142, in cross_correlation_shifts
+    d1y,d1x = np.gradient(local_values)
+              ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/numpy/lib/_function_base_impl.py", line 1297, in gradient
+    raise ValueError(
+        "Shape of array too small to calculate a numerical gradient, "
+        "at least (edge_order + 1) elements are required.")
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.

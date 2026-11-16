@@ -1,0 +1,12 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+east-14 19_11_05 1 32 5.0
+filepath is:  /mnt/archive/east-14/2019/19_11_05/
+files to stack:
+['/mnt/archive/east-14/2019/19_11_05/ad0001.fits', '/mnt/archive/east-14/2019/19_11_05/ad0002.fits', '/mnt/archive/east-14/2019/19_11_05/ad0003.fits', '/mnt/archive/east-14/2019/19_11_05/ad0004.fits', '/mnt/archive/east-14/2019/19_11_05/ad0005.fits', '/mnt/archive/east-14/2019/19_11_05/ad0006.fits', '/mnt/archive/east-14/2019/19_11_05/ad0007.fits', '/mnt/archive/east-14/2019/19_11_05/ad0008.fits', '/mnt/archive/east-14/2019/19_11_05/ad0009.fits', '/mnt/archive/east-14/2019/19_11_05/ad0010.fits', '/mnt/archive/east-14/2019/19_11_05/ad0011.fits', '/mnt/archive/east-14/2019/19_11_05/ad0012.fits', '/mnt/archive/east-14/2019/19_11_05/ad0013.fits', '/mnt/archive/east-14/2019/19_11_05/ad0014.fits', '/mnt/archive/east-14/2019/19_11_05/ad0015.fits', '/mnt/archive/east-14/2019/19_11_05/ad0016.fits', '/mnt/archive/east-14/2019/19_11_05/ad0017.fits', '/mnt/archive/east-14/2019/19_11_05/ad0018.fits', '/mnt/archive/east-14/2019/19_11_05/ad0019.fits', '/mnt/archive/east-14/2019/19_11_05/ad0020.fits', '/mnt/archive/east-14/2019/19_11_05/ad0021.fits', '/mnt/archive/east-14/2019/19_11_05/ad0022.fits', '/mnt/archive/east-14/2019/19_11_05/ad0023.fits', '/mnt/archive/east-14/2019/19_11_05/d0024.fits', '/mnt/archive/east-14/2019/19_11_05/d0025.fits', '/mnt/archive/east-14/2019/19_11_05/d0026.fits', '/mnt/archive/east-14/2019/19_11_05/ad0027.fits', '/mnt/archive/east-14/2019/19_11_05/d0028.fits', '/mnt/archive/east-14/2019/19_11_05/d0029.fits', '/mnt/archive/east-14/2019/19_11_05/ad0030.fits', '/mnt/archive/east-14/2019/19_11_05/ad0031.fits', '/mnt/archive/east-14/2019/19_11_05/ad0032.fits']
+Skipping flat /mnt/share/flatfields/mich2019_flats/east-14/QSI/V/master_flat.fits: file does not exist
+Skipping flat /mnt/share/flatfields/Epiph2019/East14/v/master_flat.fits: file does not exist
+Skipping flat /mnt/share/flatfields/2018_Mich_Flats/east-14/v/master_flat.fits: file does not exist
+Error. no suitable flat found for east-14 19_11_05 V
+Give a flat path as the 6th argument, or none to stack without a flat. aborting
+stackX3 exit status: 1

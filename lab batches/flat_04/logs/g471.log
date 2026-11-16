@@ -1,0 +1,20 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.906834 from DATE-OBS'. [astropy.wcs.wcs]
+draco2 19_01_28 183 191 5.0
+filepath is:  /mnt/archive/draco2/2019/19_01_28/
+files to stack:
+['/mnt/archive/draco2/2019/19_01_28/d0183.fits', '/mnt/archive/draco2/2019/19_01_28/ad0184.fits', '/mnt/archive/draco2/2019/19_01_28/ad0185.fits', '/mnt/archive/draco2/2019/19_01_28/ad0186.fits', '/mnt/archive/draco2/2019/19_01_28/ad0187.fits', '/mnt/archive/draco2/2019/19_01_28/ad0188.fits', '/mnt/archive/draco2/2019/19_01_28/ad0189.fits', '/mnt/archive/draco2/2019/19_01_28/ad0190.fits', '/mnt/archive/draco2/2019/19_01_28/ad0191.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_draco2_19_01_23_B.fits
+    source        target        Pscale      A   xoff   yoff
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_28/d0183.fits 0 0 4.0667550990337915
+stars found
+Traceback (most recent call last):
+  File "/mnt/64bin/stackX2.py", line 420, in <module>
+    seeing_asec = getPSF(img2,spix,xc,yc)
+  File "/mnt/64bin/stackX2.py", line 171, in getPSF
+    cen_val = sub[ycs,xcs]
+              ~~~^^^^^^^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0

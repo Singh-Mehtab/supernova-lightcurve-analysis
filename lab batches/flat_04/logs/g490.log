@@ -1,0 +1,46 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58506.857208 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58506.857208 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58506.857208 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58506.857208 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58506.857208 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58506.857208 from DATE-OBS'. [astropy.wcs.wcs]
+draco2 19_01_23 313 320 5.0
+filepath is:  /mnt/archive/draco2/2019/19_01_23/
+files to stack:
+['/mnt/archive/draco2/2019/19_01_23/ad0313.fits', '/mnt/archive/draco2/2019/19_01_23/ad0314.fits', '/mnt/archive/draco2/2019/19_01_23/ad0315.fits', '/mnt/archive/draco2/2019/19_01_23/ad0316.fits', '/mnt/archive/draco2/2019/19_01_23/ad0317.fits', '/mnt/archive/draco2/2019/19_01_23/d0318.fits', '/mnt/archive/draco2/2019/19_01_23/d0319.fits', '/mnt/archive/draco2/2019/19_01_23/ad0320.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_draco2_19_01_23_V.fits
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/draco2/2019/19_01_23/ad0313.fits 0 0 6.463176635222801
+stars found
+       /mnt/archive/draco2/2019/19_01_23/ad0314.fits -3 0 6.6889989910249374
+stars found
+       /mnt/archive/draco2/2019/19_01_23/ad0315.fits -7 0 5.463404803688026
+stars found
+       /mnt/archive/draco2/2019/19_01_23/ad0316.fits -10 0 6.1361102543116095
+stars found
+       /mnt/archive/draco2/2019/19_01_23/ad0317.fits -9 0 5.602873031215792
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0318.fits -11 -1 6.568309284214781
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0319.fits -12 -1 6.142319106643385
+stars found
+       /mnt/archive/draco2/2019/19_01_23/ad0320.fits -13 -1 6.067503583478768
+not enough good frames with seeing <5.0"
+aborting

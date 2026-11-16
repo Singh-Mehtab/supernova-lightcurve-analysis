@@ -1,0 +1,74 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58554.944571 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58554.944571 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58554.944571 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58554.944571 from DATE-OBS'. [astropy.wcs.wcs]
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_36701
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2019-03-12T22:40:10.896
+157.34254
+29.50904
+Using a pixel scale of 0.556
+Input frame is 1092 x  736
+Using ( 157.34254 29.50904 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2019.19423
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+6 stars found by Sextractor
+--------------------------------------------------------------------
+First pass to lock onto field
+Using centre:  157.34254 29.50904
+/mnt/64bin/auto_astrom/refcat 157.34254 29.50904 -rad 0.5 > refcat_stars
+Running 'starfit' to auto id the stars
+/mnt/64bin/auto_astrom/starfit -xpix 1092 -ypix 736 -scale 0.556 -final -plot
+starfit returns:  Error, initial_star_id: No stars match (nr_log_ok = 0)
+  If not blank frame, increase -nstar or lower -threshold
+ 
+ERROR: starfit failed to match the stars, Ugh!
+cp: cannot stat 'amosaic.fits': No such file or directory
+pt5m 19_03_12 541378 541382 5.0
+filepath is:  /mnt/archive/pt5m/2019/19_03_12/
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+files to stack:
+['/mnt/archive/pt5m/2019/19_03_12/adbr0541378.fits', '/mnt/archive/pt5m/2019/19_03_12/adbr0541379.fits', '/mnt/archive/pt5m/2019/19_03_12/adbr0541380.fits', '/mnt/archive/pt5m/2019/19_03_12/dbr0541381.fits', '/mnt/archive/pt5m/2019/19_03_12/adbr0541382.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/2019_Vflatnorm2x2.fits
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/pt5m/2019/19_03_12/adbr0541378.fits 0 0 1.8467877003157454
+stars found
+       /mnt/archive/pt5m/2019/19_03_12/adbr0541379.fits 0 0 1.8878941212329592
+stars found
+       /mnt/archive/pt5m/2019/19_03_12/adbr0541380.fits 0 0 2.0548541678032244
+pt5m
+stars found
+       /mnt/archive/pt5m/2019/19_03_12/dbr0541381.fits 0 0 1.8792647541057657
+stars found
+       /mnt/archive/pt5m/2019/19_03_12/adbr0541382.fits 0 0 1.9963179277961745
+there are 5 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+666
+mosaic.fits written to disk as /home/astrolab/tmp//mosaic.fits
+   diagnostic plots written to:
+            /home/astrolab/tmp/img_mosaic_inprops.png
+   and
+           /home/astrolab/tmp/img_mosaic.png

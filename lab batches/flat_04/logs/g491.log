@@ -1,0 +1,69 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_39680
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2019-01-23T20:38:56.778
+157.3453
+29.5108
+Using a pixel scale of 0.99
+Input frame is 1120 x  834
+Using ( 157.3453 29.5108 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2019.06259
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+5 stars found by Sextractor
+--------------------------------------------------------------------
+First pass to lock onto field
+Using centre:  157.3453 29.5108
+/mnt/64bin/auto_astrom/refcat 157.3453 29.5108 -rad 0.5 > refcat_stars
+Running 'starfit' to auto id the stars
+/mnt/64bin/auto_astrom/starfit -xpix 1120 -ypix 834 -scale 0.99 -final -plot
+starfit returns:  Error, initial_star_id: No triangles found 
+  Increase # stars in ccd catalog by lowering -threshold
+ERROR: starfit failed to match the stars, Ugh!
+cp: cannot stat 'amosaic.fits': No such file or directory
+draco2 19_01_23 321 328 5.0
+filepath is:  /mnt/archive/draco2/2019/19_01_23/
+files to stack:
+['/mnt/archive/draco2/2019/19_01_23/d0321.fits', '/mnt/archive/draco2/2019/19_01_23/d0322.fits', '/mnt/archive/draco2/2019/19_01_23/d0323.fits', '/mnt/archive/draco2/2019/19_01_23/d0324.fits', '/mnt/archive/draco2/2019/19_01_23/d0325.fits', '/mnt/archive/draco2/2019/19_01_23/d0326.fits', '/mnt/archive/draco2/2019/19_01_23/d0327.fits', '/mnt/archive/draco2/2019/19_01_23/d0328.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_draco2_19_01_23_B.fits
+    source        target        Pscale      A   xoff   yoff
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0321.fits 0 0 7.058505490763318
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0322.fits 0 0 7.396207940172036
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0323.fits 9 0 6.875248560175827
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0324.fits 11 0 6.802411120448461
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0325.fits 12 0 4.31253058452513
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0326.fits 0 0 6.214063509402712
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0327.fits 0 0 1.848760263522413
+14-inch DRACO2 Dome
+stars found
+       /mnt/archive/draco2/2019/19_01_23/d0328.fits 0 0 2.483434891379558
+there are 3 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+666
+mosaic.fits written to disk as /home/astrolab/tmp//mosaic.fits
+   diagnostic plots written to:
+            /home/astrolab/tmp/img_mosaic_inprops.png
+   and
+           /home/astrolab/tmp/img_mosaic.png

@@ -1,0 +1,62 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_39301
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2019-01-29T23:41:37.866
+SCIENCE True
+['10', '29', '22.08']
+['29', '30', '38.5']
+Using a pixel scale of 0.556
+Input frame is 1092 x  736
+Using ( 157.342 29.510694444444443 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2019.07936
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+2 stars found by Sextractor
+Less than 5 stars, exiting
+cp: cannot stat 'amosaic.fits': No such file or directory
+pt5m 19_01_29 529382 529387 5.0
+filepath is:  /mnt/archive/pt5m/2019/19_01_29/
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+pt5m
+files to stack:
+['/mnt/archive/pt5m/2019/19_01_29/dbr0529382.fits', '/mnt/archive/pt5m/2019/19_01_29/dbr0529383.fits', '/mnt/archive/pt5m/2019/19_01_29/dbr0529384.fits', '/mnt/archive/pt5m/2019/19_01_29/dbr0529385.fits', '/mnt/archive/pt5m/2019/19_01_29/dbr0529386.fits', '/mnt/archive/pt5m/2019/19_01_29/dbr0529387.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/2019_Bflatnorm2x2.fits
+    source        target        Pscale      A   xoff   yoff
+pt5m
+stars found
+       /mnt/archive/pt5m/2019/19_01_29/dbr0529382.fits 0 0 2.803077523307246
+pt5m
+stars found
+       /mnt/archive/pt5m/2019/19_01_29/dbr0529383.fits 0 0 1.7141295727397023
+pt5m
+stars found
+       /mnt/archive/pt5m/2019/19_01_29/dbr0529384.fits 0 0 1.7496716537505541
+pt5m
+stars found
+       /mnt/archive/pt5m/2019/19_01_29/dbr0529385.fits 0 0 1.7253763012323833
+pt5m
+stars found
+       /mnt/archive/pt5m/2019/19_01_29/dbr0529386.fits 0 0 1.5566138164513994
+pt5m
+stars found
+       /mnt/archive/pt5m/2019/19_01_29/dbr0529387.fits 0 0 1.8139862924422703
+there are 6 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+666
+mosaic.fits written to disk as /home/astrolab/tmp//mosaic.fits
+   diagnostic plots written to:
+            /home/astrolab/tmp/img_mosaic_inprops.png
+   and
+           /home/astrolab/tmp/img_mosaic.png

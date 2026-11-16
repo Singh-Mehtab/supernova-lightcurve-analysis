@@ -1,0 +1,13 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+east-14 19_11_30 36 59 5.0
+filepath is:  /mnt/archive/east-14/2019/19_11_30/
+files to stack:
+['/mnt/archive/east-14/2019/19_11_30/ad0036.fits', '/mnt/archive/east-14/2019/19_11_30/ad0037.fits', '/mnt/archive/east-14/2019/19_11_30/ad0038.fits', '/mnt/archive/east-14/2019/19_11_30/ad0039.fits', '/mnt/archive/east-14/2019/19_11_30/ad0040.fits', '/mnt/archive/east-14/2019/19_11_30/ad0041.fits', '/mnt/archive/east-14/2019/19_11_30/ad0042.fits', '/mnt/archive/east-14/2019/19_11_30/ad0043.fits', '/mnt/archive/east-14/2019/19_11_30/ad0044.fits', '/mnt/archive/east-14/2019/19_11_30/ad0045.fits', '/mnt/archive/east-14/2019/19_11_30/ad0046.fits', '/mnt/archive/east-14/2019/19_11_30/ad0047.fits', '/mnt/archive/east-14/2019/19_11_30/ad0048.fits', '/mnt/archive/east-14/2019/19_11_30/ad0049.fits', '/mnt/archive/east-14/2019/19_11_30/ad0050.fits', '/mnt/archive/east-14/2019/19_11_30/ad0051.fits', '/mnt/archive/east-14/2019/19_11_30/ad0052.fits', '/mnt/archive/east-14/2019/19_11_30/ad0053.fits', '/mnt/archive/east-14/2019/19_11_30/ad0054.fits', '/mnt/archive/east-14/2019/19_11_30/ad0055.fits', '/mnt/archive/east-14/2019/19_11_30/ad0056.fits', '/mnt/archive/east-14/2019/19_11_30/ad0057.fits', '/mnt/archive/east-14/2019/19_11_30/ad0058.fits', '/mnt/archive/east-14/2019/19_11_30/ad0059.fits']
+Skipping flat /mnt/share/flatfields/mich2019_flats/east-14/MI/V/master_flat.fits: file does not exist
+Skipping flat /mnt/share/flatfields/mich2019_flats/east-14/QSI/V/master_flat.fits: file does not exist
+Skipping flat /mnt/share/flatfields/Epiph2019/East14/v/master_flat.fits: file does not exist
+Skipping flat /mnt/share/flatfields/2018_Mich_Flats/east-14/v/master_flat.fits: file does not exist
+Error. no suitable flat found for east-14 19_11_30 V
+Give a flat path as the 6th argument, or none to stack without a flat. aborting
+stackX3 exit status: 1

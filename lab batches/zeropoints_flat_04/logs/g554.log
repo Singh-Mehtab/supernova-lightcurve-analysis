@@ -1,0 +1,22 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+Filter: R
+Filename contains 'mosaic'.  Will not flatfield. 
+No automag_driver in current directory.  Using default at /mnt/64bin/auto_astrom/automag_driver
+automag_driver: using file /mnt/64bin/auto_astrom/automag_driver
+aperture parameters; rad, r_in, r_out: 5.0, 15.0, 25.0
+Traceback (most recent call last):
+  File "/mnt/64bin/find_zeropoint.py3", line 65, in <module>
+    Zpt_mean,Zpt_median,Zpt_mean_weighted,Zpt_std,Zpt_zpt_err = zeropoint.zeropoint(img,hdr)
+                                                                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/mnt/64bin/zeropoint.py", line 278, in zeropoint
+    sources = findstars(img,hdr)
+  File "/mnt/64bin/zeropoint.py", line 179, in findstars
+    fwhm_asec = hdr['PSF_FWHM']
+                ~~~^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/astropy/io/fits/header.py", line 170, in __getitem__
+    card = self._cards[self._cardindex(key)]
+                       ~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib64/python3.14/site-packages/astropy/io/fits/header.py", line 1719, in _cardindex
+    raise KeyError(f"Keyword {keyword!r} not found.")
+KeyError: "Keyword 'PSF_FWHM' not found."

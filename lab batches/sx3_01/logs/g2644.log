@@ -1,0 +1,19 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 61358.752759 from DATE-OBS'. [astropy.wcs.wcs]
+east-16 26_11_14 1 1 5.0
+filepath is:  /mnt/archive/east-16/2026/26_11_14/
+files to stack:
+['/mnt/archive/east-16/2026/26_11_14/ad0001.fits']
+Using flat taken 36 days before this night.
+Flatfield found: /mnt/share/flatfields/flats_Mich2026/master_flat_east-16_26_10_09_V.fits
+Flat chosen by: most recent shared flat
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/east-16/2026/26_11_14/ad0001.fits 0 0 6.71753306187208
+         WCS predicts offset 0.0 0.0
+not enough good frames with seeing <5.0"
+aborting
+stackX3 exit status: 1

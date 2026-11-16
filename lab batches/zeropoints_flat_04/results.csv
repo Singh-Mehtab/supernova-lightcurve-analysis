@@ -1,0 +1,43 @@
+filename,mean,median,weighted_mean,stdev,zpt_err,status
+at2019np-19_02_25-far-east-16-B-flat-g374-mosaic.fits,25.113,25.125,25.063,0.036,0.011,done
+at2019np-19_02_25-far-east-16-B-flat-g375-mosaic.fits,25.781,25.803,25.719,0.061,0.019,done
+at2019np-19_02_25-far-east-16-V-flat-g376-mosaic.fits,26.184,26.328,26.027,0.212,0.067,done
+at2019np-19_02_21-far-east-16-B-flat-g390-mosaic.fits,25.695,25.735,25.627,0.185,0.056,done
+at2019np-19_02_21-far-east-16-V-flat-g391-mosaic.fits,26.066,26.25,25.789,0.268,0.077,done
+at2019np-19_02_21-far-east-16-r-flat-g392-mosaic.fits,25.913,25.673,25.668,0.294,0.076,done
+at2019np-19_02_14-west-14-B-flat-g405-mosaic.fits,24.354,24.335,24.276,0.09,0.029,done
+at2019np-19_02_14-west-14-V-flat-g406-mosaic.fits,24.676,24.647,24.702,0.063,0.018,done
+at2019np-19_02_14-west-14-R-flat-g407-mosaic.fits,24.383,24.369,24.46,0.066,0.023,done
+at2019np-19_02_07-east-14-V-flat-g428-mosaic.fits,23.617,23.601,23.606,0.043,0.013,done
+at2019np-19_02_04-west-14-B-flat-g442-mosaic.fits,24.583,24.591,24.589,0.059,0.02,done
+at2019np-19_02_02-west-14-V-flat-g450-mosaic.fits,25.214,25.334,25.33,0.281,0.085,done
+at2019np-19_02_02-west-14-R-flat-g451-mosaic.fits,25.276,25.263,25.264,0.032,0.01,done
+at2019np-19_01_29-far-east-16-V-flat-g462-mosaic.fits,25.566,25.573,25.463,0.035,0.01,done
+at2019np-19_01_29-far-east-16-B-flat-g463-mosaic.fits,25.197,25.203,25.16,0.029,0.008,done
+at2019np-19_01_29-far-east-16-r-flat-g464-mosaic.fits,25.463,25.605,25.306,0.205,0.057,done
+at2019np-19_01_28-draco2-V-flat-g469-mosaic.fits,24.428,24.421,24.462,0.042,0.012,done
+at2019np-19_01_28-draco2-r-flat-g472-mosaic.fits,24.36,24.363,24.419,0.029,0.008,done
+at2019np-19_01_22-far-east-16-B-flat-g492-mosaic.fits,24.982,24.996,24.975,0.174,0.055,done
+at2019np-19_01_22-far-east-16-V-flat-g493-mosaic.fits,25.573,25.578,25.529,0.032,0.009,done
+at2019np-19_01_22-far-east-16-r-flat-g494-mosaic.fits,25.464,25.517,25.316,0.114,0.03,done
+sn2019np-19_05_05-east-14-V-flat-g549-mosaic.fits,25.428,25.546,25.199,0.211,0.048,done
+sn2019np-19_05_05-east-14-B-flat-g550-mosaic.fits,25.259,25.268,25.106,0.066,0.016,done
+sn2019np-19_05_03-east-14-V-flat-g552-mosaic.fits,,,,,,step 1
+sn2019np-19_05_03-east-14-B-flat-g553-mosaic.fits,,,,,,step 1
+sn2019np-19_05_03-east-14-R-flat-g554-mosaic.fits,,,,,,step 1
+sn2019np-19_04_29-east-14-V-flat-g555-mosaic.fits,24.877,24.911,24.77,0.122,0.03,done
+sn2019np-19_04_29-east-14-V-flat-g556-mosaic.fits,24.964,25.01,24.837,0.102,0.025,done
+sn2019np-19_04_29-east-14-B-flat-g557-mosaic.fits,24.669,24.669,24.601,0.045,0.012,done
+sn2019np-19_04_28-east-14-V-flat-g558-mosaic.fits,25.289,25.404,25.101,0.197,0.046,done
+sn2019np-19_04_28-east-14-B-flat-g559-mosaic.fits,24.912,24.905,24.794,0.094,0.022,done
+sn2019np-19_04_12-east-14-V-flat-g561-mosaic.fits,25.36,25.509,25.0,0.291,0.069,done
+sn2019np-19_04_10-east-14-V-flat-g565-mosaic.fits,25.413,25.561,25.156,0.265,0.059,done
+sn2019np-19_04_09-east-14-V-flat-g568-mosaic.fits,25.363,25.52,25.061,0.28,0.066,done
+sn2019np-19_04_04-east-14-V-flat-g572-mosaic.fits,25.329,25.501,25.03,0.284,0.067,done
+sn2019np-19_03_31-east-14-R-flat-g577-mosaic.fits,25.215,25.413,24.933,0.284,0.061,done
+sn2019np-19_03_29-east-14-V-flat-g578-mosaic.fits,25.382,25.482,25.185,0.202,0.049,done
+sn2019np-19_03_28-east-14-V-flat-g581-mosaic.fits,25.479,25.644,25.273,0.247,0.054,done
+sn2019np-19_02_15-far-east-16-r-flat-g594-mosaic.fits,24.958,24.942,24.985,0.075,0.024,done
+sn2019np-19_02_10-far-east-16-V-flat-g596-mosaic.fits,26.116,26.274,25.924,0.222,0.059,done
+sn2019np-19_02_10-far-east-16-r-flat-g597-mosaic.fits,25.978,26.194,25.746,0.266,0.069,done
+sn2019np-19_02_10-far-east-16-B-flat-g598-mosaic.fits,25.737,25.726,25.671,0.054,0.016,done

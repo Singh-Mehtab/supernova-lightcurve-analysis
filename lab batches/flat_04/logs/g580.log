@@ -1,0 +1,50 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58571.888944 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58571.888944 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58571.888944 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58571.888944 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58571.888944 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58571.888944 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58571.888944 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58571.888944 from DATE-OBS'. [astropy.wcs.wcs]
+east-14 19_03_29 21 28 5.0
+filepath is:  /mnt/archive/east-14/2019/19_03_29/
+files to stack:
+['/mnt/archive/east-14/2019/19_03_29/ad0021.fits', '/mnt/archive/east-14/2019/19_03_29/ad0022.fits', '/mnt/archive/east-14/2019/19_03_29/ad0023.fits', '/mnt/archive/east-14/2019/19_03_29/ad0024.fits', '/mnt/archive/east-14/2019/19_03_29/ad0025.fits', '/mnt/archive/east-14/2019/19_03_29/ad0026.fits', '/mnt/archive/east-14/2019/19_03_29/ad0027.fits', '/mnt/archive/east-14/2019/19_03_29/ad0028.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_east-14_19_01_17_R.fits
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/east-14/2019/19_03_29/ad0021.fits 0 0 6.0188372589771735
+stars found
+       /mnt/archive/east-14/2019/19_03_29/ad0022.fits 1 0 5.3478644240926405
+stars found
+       /mnt/archive/east-14/2019/19_03_29/ad0023.fits 1 0 5.533995275845764
+stars found
+       /mnt/archive/east-14/2019/19_03_29/ad0024.fits 2 0 5.777608101211634
+stars found
+       /mnt/archive/east-14/2019/19_03_29/ad0025.fits 2 0 5.256156348277476
+stars found
+       /mnt/archive/east-14/2019/19_03_29/ad0026.fits 3 0 5.727206478454725
+stars found
+       /mnt/archive/east-14/2019/19_03_29/ad0027.fits 3 0 5.767729652571565
+stars found
+       /mnt/archive/east-14/2019/19_03_29/ad0028.fits 3 0 5.721313589442942
+not enough good frames with seeing <5.0"
+aborting

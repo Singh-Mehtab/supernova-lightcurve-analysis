@@ -1,0 +1,127 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58511.915670 from DATE-OBS'. [astropy.wcs.wcs]
+/mnt/64bin/stackX2.py:494: RuntimeWarning: All-NaN slice encountered
+  mosaic = np.nanmedian(mosaic_cube,axis=2)
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_39406
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2019-01-28T21:58:33.915
+157.3487
+29.5106
+Using a pixel scale of 0.99
+Input frame is 1632 x  1112
+Using ( 157.3487 29.5106 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2019.07643
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+97 stars found by Sextractor
+--------------------------------------------------------------------
+First pass to lock onto field
+Using centre:  157.3487 29.5106
+/mnt/64bin/auto_astrom/refcat 157.3487 29.5106 -rad 0.5 > refcat_stars
+Running 'starfit' to auto id the stars
+/mnt/64bin/auto_astrom/starfit -xpix 1632 -ypix 1112 -scale 0.99 -final -plot
+starfit returns:  Error, starfit: Found only 3 stars in initial match
+      Try to increase -nstar or -refstar (currently nstar=20,  refstar=18).
+ERROR: starfit failed to match the stars, Ugh!
+cp: cannot stat 'amosaic.fits': No such file or directory
+draco2 19_01_28 200 215 5.0
+filepath is:  /mnt/archive/draco2/2019/19_01_28/
+files to stack:
+['/mnt/archive/draco2/2019/19_01_28/ad0200.fits', '/mnt/archive/draco2/2019/19_01_28/ad0201.fits', '/mnt/archive/draco2/2019/19_01_28/ad0202.fits', '/mnt/archive/draco2/2019/19_01_28/ad0203.fits', '/mnt/archive/draco2/2019/19_01_28/ad0204.fits', '/mnt/archive/draco2/2019/19_01_28/ad0205.fits', '/mnt/archive/draco2/2019/19_01_28/ad0206.fits', '/mnt/archive/draco2/2019/19_01_28/ad0207.fits', '/mnt/archive/draco2/2019/19_01_28/ad0208.fits', '/mnt/archive/draco2/2019/19_01_28/ad0209.fits', '/mnt/archive/draco2/2019/19_01_28/ad0210.fits', '/mnt/archive/draco2/2019/19_01_28/ad0211.fits', '/mnt/archive/draco2/2019/19_01_28/ad0212.fits', '/mnt/archive/draco2/2019/19_01_28/ad0213.fits', '/mnt/archive/draco2/2019/19_01_28/ad0214.fits', '/mnt/archive/draco2/2019/19_01_28/ad0215.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_draco2_19_01_23_V.fits
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0200.fits 0 0 4.466531465589556
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0201.fits -3 0 5.303180689886762
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0202.fits -3 0 5.0214990907448644
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0203.fits -8 0 5.156459068049893
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0204.fits -5 0 5.43293982260219
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0205.fits -4 0 5.06727207123993
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0206.fits -6 0 5.0934147789707795
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0207.fits -8 0 4.8870416076582925
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0208.fits 515 277 4.958376649941414
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0209.fits 512 276 4.943789019460898
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0210.fits 512 276 5.19012704444113
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0211.fits 512 276 5.338709180926612
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0212.fits 512 277 5.0075574221587695
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0213.fits 513 277 4.955465327996893
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0214.fits 513 277 5.137700450677048
+stars found
+       /mnt/archive/draco2/2019/19_01_28/ad0215.fits 511 276 5.455680358089869
+there are 5 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+666
+mosaic.fits written to disk as /home/astrolab/tmp//mosaic.fits
+   diagnostic plots written to:
+            /home/astrolab/tmp/img_mosaic_inprops.png
+   and
+           /home/astrolab/tmp/img_mosaic.png

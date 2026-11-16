@@ -1,0 +1,278 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58875.847366 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58875.847366 from DATE-OBS'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58875.849566 from DATE-OBS'. [astropy.wcs.wcs]
+/run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/stackX3.py:905: RuntimeWarning: All-NaN slice encountered
+  mosaic = np.nanmedian(mosaic_cube,axis=2)
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_28536
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2020-01-27T20:20:12.430
+54.45487
+3.27206
+Using a pixel scale of 0.556
+Input frame is 1609 x  952
+Using ( 54.45487 3.27206 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2020.07350
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+59 stars found by Sextractor
+--------------------------------------------------------------------
+First pass to lock onto field
+Using centre:  54.45487 3.27206
+/mnt/64bin/auto_astrom/refcat 54.45487 3.27206 -rad 0.5 > refcat_stars
+Running 'starfit' to auto id the stars
+/mnt/64bin/auto_astrom/starfit -xpix 1609 -ypix 952 -scale 0.556 -final -plot
+starfit returns:  03h37:27.55-0.001X+0.5596Y +03d26:14.0-0.001Y-0.5587X: 14/40/122*,0.11"RMS
+starfit matched 14  stars
+New centre:  54.44105 3.2904
+--------------------------------------------------------------------
+REFCAT processing ...
+Looking for REFCAT stars at 54.44105 3.2904   2020.0735
+/mnt/64bin/auto_astrom/refcat 54.44105 3.2904 -rad 0.5 -all
+found 124 stars
+124 REFCAT stars found
+40 558.97 753.08 54.48177 3.35031 54.481766018111955 3.3503146203208334 0.021941888001075768
+36 850.62 653.02 54.46612 3.30509 54.46611812693547 3.3050897569875 0.006788424636327519
+35 1112.34 604.60 54.45855 3.26447 54.4585477335939 3.2644815533499996 0.04238223539503667
+96 1326.40 608.28 54.4591 3.23127 54.45909671706445 3.2312625194208335 0.02940177282653605
+95 864.26 576.59 54.45424 3.30298 54.45424018642879 3.3029639956541668 0.05761954084666542
+94 816.58 549.23 54.44998 3.31037 54.44998134899542 3.3103658486416667 0.015711637633114225
+32 551.16 433.74 54.43212 3.35164 54.432116752748264 3.351621513625 0.06756641495741125
+93 751.74 425.33 54.43071 3.32045 54.43071725932495 3.320439036483333 0.047312233285328874
+90 1083.51 386.89 54.4247 3.26902 54.42469798004953 3.2689981798666663 0.07888725850945391
+89 1523.70 331.32 54.41596 3.20069 54.41595854893674 3.2006820637041664 0.029042833993948077
+88 572.18 320.38 54.4145 3.34835 54.41449871176715 3.3483466627958336 0.01287512924928316
+24 1043.56 279.06 54.408 3.27527 54.408 3.27527 0.0
+87 1074.35 277.13 54.40767 3.27043 54.407671697352555 3.2704248794958337 0.019417050523512766
+103 1026.05 885.50 54.50224 3.27782 54.502236565424795 3.2778084415666666 0.043402792442180885
+14 Excellent, we have  matched 14 stars in REFCAT, writing 'astrom.dat'
+Running Starlink's astrom to tune-up the astrometry fit ...
+astrom returns rms residuals of    0.077  0.073  0.106 arcsec
+Copying input file and adding/updating the astrometry solution in fits header
+Copying derived solution to image header
+Using  asc02.fits  solution
+03:37:45.270 +03:18:44.18 J2000  804.500  476.000 
+ 54.43862   3.31227 J2000  804.500  476.000 
+Updating image centre from ( 54.44105 3.2904 ) to ( 54.43862 3.31227 )
+Calculating (ra,dec) of objects in asc_sextr.dat
+Looking for more stars to include in astrometry fit
+Applying a S/N cut of  29.832553466514717
+41 stars in Sextractor catalogue
+124 stars in REFCAT catalogue
+Matched  22  stars in asc_sextr.cat within 1 arcsec of REFCAT positions
+Mag Zeropoint: 26.1585      rms: 0.1479999999999997
+Writing new astrom.dat
+Using  22  stars
+Looking for unknown/extra objects to include in 'astrom.dat'
+Added  37  non-matched stars
+Running Starlink's astrom to tune-up (2nd pass) the astrometry fit ...
+astrom returns: 
+
+ FITS-WCS header for  4-component solution in file asc01.fits
+ Residuals, 4-coefficient fit:
+
+                n           dX        dY        dR
+
+                1        -0.163    -0.213     0.268
+                2        -0.222    -0.050     0.227
+                3        -0.118    -0.038     0.124
+                4        -0.012    -0.091     0.092
+                5        -0.035    -0.167     0.171
+                6        -0.012    -0.075     0.076
+                7        +0.053    -0.074     0.091
+                8        -0.029    -0.019     0.035
+                9        +0.087    -0.051     0.101
+               10        +0.048    +0.689     0.691
+               11        -0.089    +0.025     0.093
+               12        -0.053    +0.046     0.070
+               13        +0.039    -0.007     0.039
+               14        +0.035    -0.043     0.055
+               15        +0.152    +0.105     0.185
+               16        +0.089    +0.035     0.096
+               17        +0.033    +0.023     0.040
+               18        -0.108    -0.091     0.141
+               19        +0.091    +0.075     0.118
+               20        +0.057    -0.058     0.081
+               21        -0.015    -0.079     0.080
+               22        +0.172    +0.057     0.181
+
+                RMS :     0.096     0.168     0.193
+
+
+ FITS-WCS header for  6-component solution in file asc02.fits
+ Residuals, 6-coefficient fit:
+
+                n           dX        dY        dR
+
+                1        -0.096    -0.126     0.158
+                2        -0.105    -0.048     0.115
+                3        -0.017    -0.033     0.038
+                4        -0.030    +0.025     0.039
+                5        -0.022    -0.168     0.170
+                6        -0.009    -0.103     0.103
+                7        +0.019    -0.075     0.078
+                8        -0.116    -0.006     0.116
+                9        +0.020    -0.122     0.124
+               10        +0.030    +0.475     0.476
+               11        -0.018    +0.108     0.109
+               12        -0.044    +0.196     0.201
+               13        +0.145    -0.014     0.145
+               14        +0.083    +0.004     0.083
+               15        +0.157    +0.192     0.248
+               16        +0.074    +0.072     0.103
+               17        +0.017    +0.044     0.047
+               18        -0.082    -0.154     0.175
+               19        +0.016    +0.055     0.057
+               20        +0.012    -0.141     0.142
+               21        -0.081    -0.182     0.200
+               22        +0.048    +0.003     0.048
+
+                RMS :     0.072     0.148     0.164
+
+
+ Unknowns, 6-coefficient model:
+
+                 +555.446 +182.579   ->   03 37 34.338  +03 21 03.75
+                 +556.094  +71.490   ->   03 37 30.195  +03 21 03.52
+                 +751.475  +16.304   ->   03 37 28.127  +03 19 14.38
+                 +751.669 +139.132   ->   03 37 32.708  +03 19 14.14
+                 +751.731 +110.710   ->   03 37 31.648  +03 19 14.13
+                 +751.613  +89.353   ->   03 37 30.852  +03 19 14.22
+                 +929.883  +49.838   ->   03 37 29.370  +03 17 34.64
+                 +929.967  +80.194   ->   03 37 30.502  +03 17 34.55
+                 +929.916  +33.504   ->   03 37 28.761  +03 17 34.63
+                 +929.854  +13.994   ->   03 37 28.033  +03 17 34.69
+                 +504.572  +31.375   ->   03 37 28.701  +03 21 32.36
+                +1004.288 +766.547   ->   03 37 56.096  +03 16 52.23
+                  +35.043 +667.805   ->   03 37 52.462  +03 25 54.04
+                +1490.586 +628.827   ->   03 37 50.936  +03 12 20.61
+                +1305.901 +588.318   ->   03 37 49.434  +03 14 03.87
+                +1279.870 +575.992   ->   03 37 48.976  +03 14 18.43
+                +1063.079 +568.413   ->   03 37 48.704  +03 16 19.60
+                +1397.903 +555.731   ->   03 37 48.215  +03 13 12.49
+                  +41.276 +538.842   ->   03 37 47.651  +03 25 50.71
+                +1003.817 +525.718   ->   03 37 47.114  +03 16 52.77
+                 +665.625 +467.223   ->   03 37 44.949  +03 20 01.85
+                 +981.238 +403.391   ->   03 37 42.553  +03 17 05.53
+                +1256.025 +392.878   ->   03 37 42.148  +03 14 31.97
+                 +807.075 +373.674   ->   03 37 41.453  +03 18 42.91
+                 +551.568 +368.163   ->   03 37 41.260  +03 21 05.71
+                 +552.607 +297.825   ->   03 37 38.637  +03 21 05.21
+                  +33.498 +220.532   ->   03 37 35.778  +03 25 55.42
+                 +751.096 +196.462   ->   03 37 34.847  +03 19 14.39
+                 +833.529 +845.905   ->   03 37 59.064  +03 18 27.57
+                +1342.657 +818.402   ->   03 37 58.013  +03 13 43.06
+                 +929.347 +134.361   ->   03 37 32.522  +03 17 34.84
+                 +930.242 +182.485   ->   03 37 34.317  +03 17 34.29
+                 +929.725 +163.165   ->   03 37 33.596  +03 17 34.60
+                 +929.526 +112.807   ->   03 37 31.718  +03 17 34.76
+                 +875.207 +800.652   ->   03 37 57.375  +03 18 04.33
+                 +863.830 +771.313   ->   03 37 56.281  +03 18 10.73
+                 +683.586  +74.623   ->   03 37 30.306  +03 19 52.26
+--------------------------------------------------- finished
+
+astrom returns rms residuals of    0.072  0.148  0.164 arcsec
+Running Starlink's astrom to tune-up (3rd pass) the astrometry fit ...
+python /mnt/64bin/auto_astrom/cull_astrom.py3 > culled_astrom.dat
+
+astrom returns rms residuals of    0.072  0.148  0.164 arcsec
+Copying input file and adding/updating the astrometry solution in fits header
+Copying derived solution to image header
+LONG_OBS not in HEADER
+LAT_OBS not in HEADER
+DETECTOR not in HEADER
+GAIN not in HEADER
+RDNOISE not in HEADER
+CCD_TEMP not in HEADER
+CCD_TSET not in HEADER
+HEATSINK not in HEADER
+QSIPOWER not in HEADER
+OBSERVER not in HEADER
+AZIMUTH not in HEADER
+ALTITUDE not in HEADER
+HA not in HEADER
+TCFPOS not in HEADER
+TCFTEMP not in HEADER
+MJD-OBS not in HEADER
+Updating image centre from ( 54.44105 3.2904 ) to ( 54.43862 3.31229 )
+amosaic.fits written
+2020-01-27T20:20:12.930000  555.446  182.579    03 37 34.3381 +03 21 03.755   16.169   0.004
+2020-01-27T20:20:12.930000  556.094   71.490    03 37 30.1947 +03 21 03.516   16.169   0.003
+2020-01-27T20:20:12.930000  751.475   16.304    03 37 28.1274 +03 19 14.382   17.979   0.015
+2020-01-27T20:20:12.930000  751.669  139.132    03 37 32.7085 +03 19 14.137   17.927   0.021
+2020-01-27T20:20:12.930000  751.731  110.710    03 37 31.6484 +03 19 14.134   17.859   0.022
+2020-01-27T20:20:12.930000  751.613   89.353    03 37 30.8519 +03 19 14.224   17.831   0.020
+2020-01-27T20:20:12.930000  929.883   49.838    03 37 29.3699 +03 17 34.635   18.308   0.043
+2020-01-27T20:20:12.930000  929.967   80.194    03 37 30.5020 +03 17 34.554   18.207   0.025
+2020-01-27T20:20:12.930000  929.916   33.504    03 37 28.7607 +03 17 34.635   18.268   0.043
+2020-01-27T20:20:12.930000  929.854   13.994    03 37 28.0331 +03 17 34.691   18.352   0.032
+2020-01-27T20:20:12.930000  504.572   31.375    03 37 28.7008 +03 21 32.356   17.405   0.033
+2020-01-27T20:20:12.930000 1004.288  766.547    03 37 56.0962 +03 16 52.231   17.479   0.038
+2020-01-27T20:20:12.930000   35.043  667.805    03 37 52.4617 +03 25 54.044   16.697   0.021
+2020-01-27T20:20:12.930000 1490.586  628.827    03 37 50.9359 +03 12 20.607  125.159   1.111
+2020-01-27T20:20:12.930000 1305.901  588.318    03 37 49.4343 +03 14 03.872   17.601   0.039
+2020-01-27T20:20:12.930000 1279.870  575.992    03 37 48.9759 +03 14 18.434   16.915   0.024
+2020-01-27T20:20:12.930000 1063.079  568.413    03 37 48.7039 +03 16 19.604   17.271   0.030
+2020-01-27T20:20:12.930000 1397.903  555.731    03 37 48.2145 +03 13 12.491   17.803   0.046
+2020-01-27T20:20:12.930000   41.276  538.842    03 37 47.6510 +03 25 50.710   18.370   0.070
+2020-01-27T20:20:12.930000 1003.817  525.718    03 37 47.1145 +03 16 52.774   18.256   0.066
+2020-01-27T20:20:12.930000  665.625  467.223    03 37 44.9493 +03 20 01.853   17.830   0.047
+2020-01-27T20:20:12.930000  981.238  403.391    03 37 42.5533 +03 17 05.535   17.832   0.049
+2020-01-27T20:20:12.930000 1256.025  392.878    03 37 42.1481 +03 14 31.971   17.684   0.042
+2020-01-27T20:20:12.930000  807.075  373.674    03 37 41.4534 +03 18 42.906   18.044   0.057
+2020-01-27T20:20:12.930000  551.568  368.163    03 37 41.2601 +03 21 05.712   18.849   0.080
+2020-01-27T20:20:12.930000  552.607  297.825    03 37 38.6366 +03 21 05.211   18.681   0.061
+2020-01-27T20:20:12.930000   33.498  220.532    03 37 35.7782 +03 25 55.421   18.402   0.058
+2020-01-27T20:20:12.930000  751.096  196.462    03 37 34.8467 +03 19 14.393   18.032   0.017
+2020-01-27T20:20:12.930000  833.529  845.905    03 37 59.0645 +03 18 27.572   18.248   0.068
+2020-01-27T20:20:12.930000 1342.657  818.402    03 37 58.0130 +03 13 43.060   17.071   0.026
+2020-01-27T20:20:12.930000  929.347  134.361    03 37 32.5223 +03 17 34.840   18.492   0.041
+2020-01-27T20:20:12.930000  930.242  182.485    03 37 34.3170 +03 17 34.286   18.404   0.027
+2020-01-27T20:20:12.930000  929.725  163.165    03 37 33.5965 +03 17 34.597   18.443   0.036
+2020-01-27T20:20:12.930000  929.526  112.807    03 37 31.7184 +03 17 34.764   18.407   0.039
+2020-01-27T20:20:12.930000  875.207  800.652    03 37 57.3747 +03 18 04.332   17.075   0.028
+2020-01-27T20:20:12.930000  863.830  771.313    03 37 56.2810 +03 18 10.725   17.370   0.025
+2020-01-27T20:20:12.930000  683.586   74.623    03 37 30.3057 +03 19 52.260   17.134   0.027
+File: mosaic_astrom_new lists unknown objects in image
+pt5m 20_01_27 605707 605709 5.0
+filepath is:  /mnt/archive/pt5m/2020/20_01_27/
+pt5m
+pt5m
+pt5m
+files to stack:
+['/mnt/archive/pt5m/2020/20_01_27/adbr0605707.fits', '/mnt/archive/pt5m/2020/20_01_27/adbr0605708.fits', '/mnt/archive/pt5m/2020/20_01_27/dbr0605709.fits']
+Flatfield found: /mnt/archive/pt5m/2020/20_01_27/calibs/Rflatnorm2x2.fits
+Flat chosen by: same night
+    source        target        Pscale      A   xoff   yoff
+stars found
+       /mnt/archive/pt5m/2020/20_01_27/adbr0605707.fits 0 0 2.723638132775778
+         WCS predicts offset -0.0 -0.0
+stars found
+       /mnt/archive/pt5m/2020/20_01_27/adbr0605708.fits 0 3 2.6019209382481114
+         WCS predicts offset -0.8 3.4
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_01_27/dbr0605709.fits -517 -213 4.679421981378773
+there are 3 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+mosaic.fits written to disk as /run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/working/g1488/mosaic.fits
+666
+   diagnostic plots written to:
+            ./img_mosaic_inprops.png
+   and
+           ./img_mosaic.png
+astrometry done: amosaic.fits written
+stackX3 exit status: 0

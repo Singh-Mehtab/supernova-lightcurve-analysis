@@ -1,0 +1,23 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58521.904042 from DATE-OBS'. [astropy.wcs.wcs]
+east-14 19_02_07 562 593 5.0
+filepath is:  /mnt/archive/east-14/2019/19_02_07/
+files to stack:
+['/mnt/archive/east-14/2019/19_02_07/d0562.fits', '/mnt/archive/east-14/2019/19_02_07/d0563.fits', '/mnt/archive/east-14/2019/19_02_07/ad0564.fits', '/mnt/archive/east-14/2019/19_02_07/ad0565.fits', '/mnt/archive/east-14/2019/19_02_07/ad0566.fits', '/mnt/archive/east-14/2019/19_02_07/ad0567.fits', '/mnt/archive/east-14/2019/19_02_07/ad0568.fits', '/mnt/archive/east-14/2019/19_02_07/ad0569.fits', '/mnt/archive/east-14/2019/19_02_07/ad0570.fits', '/mnt/archive/east-14/2019/19_02_07/ad0571.fits', '/mnt/archive/east-14/2019/19_02_07/ad0572.fits', '/mnt/archive/east-14/2019/19_02_07/ad0573.fits', '/mnt/archive/east-14/2019/19_02_07/ad0574.fits', '/mnt/archive/east-14/2019/19_02_07/ad0575.fits', '/mnt/archive/east-14/2019/19_02_07/ad0576.fits', '/mnt/archive/east-14/2019/19_02_07/ad0577.fits', '/mnt/archive/east-14/2019/19_02_07/ad0578.fits', '/mnt/archive/east-14/2019/19_02_07/ad0579.fits', '/mnt/archive/east-14/2019/19_02_07/ad0580.fits', '/mnt/archive/east-14/2019/19_02_07/ad0581.fits', '/mnt/archive/east-14/2019/19_02_07/ad0582.fits', '/mnt/archive/east-14/2019/19_02_07/ad0583.fits', '/mnt/archive/east-14/2019/19_02_07/ad0584.fits', '/mnt/archive/east-14/2019/19_02_07/ad0585.fits', '/mnt/archive/east-14/2019/19_02_07/ad0586.fits', '/mnt/archive/east-14/2019/19_02_07/ad0587.fits', '/mnt/archive/east-14/2019/19_02_07/ad0588.fits', '/mnt/archive/east-14/2019/19_02_07/ad0589.fits', '/mnt/archive/east-14/2019/19_02_07/ad0590.fits', '/mnt/archive/east-14/2019/19_02_07/ad0591.fits', '/mnt/archive/east-14/2019/19_02_07/d0592.fits', '/mnt/archive/east-14/2019/19_02_07/d0593.fits']
+Flatfield found: /home/astrolab/SNe/flatfields/master_flat_east-14_19_01_17_B.fits
+    source        target        Pscale      A   xoff   yoff
+14-inch East Dome
+stars found
+       /mnt/archive/east-14/2019/19_02_07/d0562.fits 0 0 9.968927748585049
+14-inch East Dome
+stars found
+       /mnt/archive/east-14/2019/19_02_07/d0563.fits 0 0 4.051623015605558
+stars found
+Traceback (most recent call last):
+  File "/mnt/64bin/stackX2.py", line 420, in <module>
+    seeing_asec = getPSF(img2,spix,xc,yc)
+  File "/mnt/64bin/stackX2.py", line 171, in getPSF
+    cen_val = sub[ycs,xcs]
+              ~~~^^^^^^^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0

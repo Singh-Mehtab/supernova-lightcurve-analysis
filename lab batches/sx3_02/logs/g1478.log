@@ -1,0 +1,55 @@
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+/run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/stackX3.py:1011: UserWarning: Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+  plt.xlim(np.min(frame_num),np.max(frame_num))
+/usr/lib64/python3.14/site-packages/astropy/config/paths.py:55: AstropyUserWarning: XDG_CONFIG_HOME is set to '/home/astrolab/.config', but the default location, /home/astrolab/.astropy/config, already exists, and takes precedence. This environment variable will be ignored.
+  return set_temp_config._get_dir_path(rootname)
+ADAM_USER:  /tmp/junk_25914
+ 
+achernar
+Ignoring object at  0.0 0.0
+Using image file:  mosaic.fits
+Looking for (RA, Dec) position in header
+2020-01-25T20:35:09.475
+SCIENCE True
+['3', '37', '48.70']
+['3', '16', '19.6']
+Using a pixel scale of 0.556
+Input frame is 1092 x  736
+Using ( 54.45291666666667 3.272111111111111 ) from FITS header as the initial centre of the CCD image
+Epoch of image 2020.06806
+Running 'raw sex', i.e. /star/bin/extractor/sex , to get list of objects in (x,y) pixels
+/star/bin/extractor/sex -c /mnt/64bin/auto_astrom/ascfit.sex mosaic.fits
+17 stars found by Sextractor
+--------------------------------------------------------------------
+First pass to lock onto field
+Using centre:  54.45291666666667 3.272111111111111
+/mnt/64bin/auto_astrom/refcat 54.45291666666667 3.272111111111111 -rad 0.5 > refcat_stars
+Running 'starfit' to auto id the stars
+/mnt/64bin/auto_astrom/starfit -xpix 1092 -ypix 736 -scale 0.556 -final -plot
+starfit returns:  Error, initial_star_id: No matches received more than one vote
+  If not blank field, increase -nstar or lower -threshold
+ERROR: starfit failed to match the stars, Ugh!
+pt5m 20_01_25 605078 605078 5.0
+filepath is:  /mnt/archive/pt5m/2020/20_01_25/
+pt5m
+files to stack:
+['/mnt/archive/pt5m/2020/20_01_25/dbr0605078.fits']
+Flatfield found: /mnt/archive/pt5m/2020/20_01_25/calibs/Vflatnorm2x2.fits
+Flat chosen by: same night
+    source        target        Pscale      A   xoff   yoff
+pt5m
+stars found
+       /mnt/archive/pt5m/2020/20_01_25/dbr0605078.fits 0 0 2.341632259509883
+there are 1 images with seeing <5.0" to mosaic
+creating mosaic...
+done
+mosaic.fits written to disk as /run/media/astrolab/Pallas/Astrolab/SNe/sx3_02/working/g1478/mosaic.fits
+666
+   diagnostic plots written to:
+            ./img_mosaic_inprops.png
+   and
+           ./img_mosaic.png
+Error. astrometry failed: no new amosaic.fits was written
+stackX3 exit status: 1
