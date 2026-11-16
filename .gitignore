@@ -12,3 +12,11 @@ __pycache__/
 *.fits.gz
 
 .env
+
+Database Builder v2.ipynb
+
+store_zeropoint.py
+stackX3.py
+
+working/
+
