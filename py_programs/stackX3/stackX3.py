@@ -394,34 +394,38 @@ AREFCAT = os.environ.get('STACKX3_AREFCAT','/mnt/64bin/auto_astrom/arefcat.py')
 # flats_Eph2023/FE20/WoP/C/master_flat_far-east-20_23_01_19_C.fits: two flats per filter (east and west of pier); pier side of each image unknown
 # flats_Eph2023/FE20/WoP/R/master_flat_far-east-20_23_01_19_r.fits: two flats per filter (east and west of pier); pier side of each image unknown
 # flats_Eph2023/FE20/WoP/V/master_flat_far-east-20_23_01_19_V.fits: two flats per filter (east and west of pier); pier side of each image unknown
-# mich2019_flats/FE16_12inch/V/master_flat.fits: header says FILTER = B, same exposure as the B flat
+# flats_Mich2019/FE16_12inch/V/master_flat.fits: header says FILTER = B, same exposure as the B flat
 
 SHARED_FLATS = [
     # draco2
-    ('draco2','B','2018-10-18','2018_Mich_Flats/draco2/b/master_flat.fits'),
-    ('draco2','C','2018-10-18','2018_Mich_Flats/draco2/c/master_flat.fits'),
-    ('draco2','V','2018-10-18','2018_Mich_Flats/draco2/v/master_flat.fits'),
-    ('draco2','B','2019-01-23','Epiph2019/Draco2/b/master_flat.fits'),
-    ('draco2','C','2019-01-23','Epiph2019/Draco2/c/master_flat.fits'),
-    ('draco2','E','2019-01-23','Epiph2019/Draco2/E/master_flat.fits'),
-    ('draco2','V','2019-01-23','Epiph2019/Draco2/v/master_flat.fits'),
-    ('draco2','r','2019-01-23','Epiph2019/Draco2/r/master_flat.fits'),
-    ('draco2','B','2019-10-21','mich2019_flats/draco2/B/master_flat.fits'),
-    ('draco2','C','2019-10-21','mich2019_flats/draco2/C/master_flat.fits'),
-    ('draco2','V','2019-10-21','mich2019_flats/draco2/V/master_flat.fits'),
-    ('draco2','r','2019-10-21','mich2019_flats/draco2/R/master_flat.fits'),
-    ('draco2','B','2021-01-23','2021_flats/Jan/draco2/B/master_flat_draco2_21_01_23_B.fits'),
-    ('draco2','C','2021-01-23','2021_flats/Jan/draco2/C/master_flat_draco2_21_01_23_C.fits'),
-    ('draco2','V','2021-01-23','2021_flats/Jan/draco2/V/master_flat_draco2_21_01_23_V.fits'),
-    ('draco2','r','2021-01-23','2021_flats/Jan/draco2/R/master_flat_draco2_21_01_23_r.fits'),
+    ('draco2','B','2018-10-18','flats_Mich2018/draco2/b/master_flat.fits'),
+    ('draco2','C','2018-10-18','flats_Mich2018/draco2/c/master_flat.fits'),
+    ('draco2','V','2018-10-18','flats_Mich2018/draco2/v/master_flat.fits'),
+    ('draco2','B','2019-01-23','flats_Eph2019/Draco2/b/master_flat.fits'),
+    ('draco2','C','2019-01-23','flats_Eph2019/Draco2/c/master_flat.fits'),
+    ('draco2','E','2019-01-23','flats_Eph2019/Draco2/E/master_flat.fits'),
+    ('draco2','V','2019-01-23','flats_Eph2019/Draco2/v/master_flat.fits'),
+    ('draco2','r','2019-01-23','flats_Eph2019/Draco2/r/master_flat.fits'),
+    ('draco2','B','2019-10-21','flats_Mich2019/draco2/B/master_flat.fits'),
+    ('draco2','C','2019-10-21','flats_Mich2019/draco2/C/master_flat.fits'),
+    ('draco2','V','2019-10-21','flats_Mich2019/draco2/V/master_flat.fits'),
+    ('draco2','r','2019-10-21','flats_Mich2019/draco2/R/master_flat.fits'),
+    ('draco2','B','2020-10-15','flats_Mich2020/draco2/B/master_flat_draco2_20_10_15_B.fits'),   # from file name
+    ('draco2','C','2020-10-15','flats_Mich2020/draco2/C/master_flat_draco2_20_10_15_C.fits'),   # from file name
+    ('draco2','V','2020-10-15','flats_Mich2020/draco2/V/master_flat_draco2_20_10_15_V.fits'),   # from file name
+    ('draco2','r','2020-10-15','flats_Mich2020/draco2/R/master_flat_draco2_20_10_15_r.fits'),   # from file name
+    ('draco2','B','2021-01-23','flats_Mich2021/Jan/draco2/B/master_flat_draco2_21_01_23_B.fits'),
+    ('draco2','C','2021-01-23','flats_Mich2021/Jan/draco2/C/master_flat_draco2_21_01_23_C.fits'),
+    ('draco2','V','2021-01-23','flats_Mich2021/Jan/draco2/V/master_flat_draco2_21_01_23_V.fits'),
+    ('draco2','r','2021-01-23','flats_Mich2021/Jan/draco2/R/master_flat_draco2_21_01_23_r.fits'),
     ('draco2','B','2022-01-04','flats_Eph2022/draco2/B/master_flat_draco2_22_01_04_B.fits'),
     ('draco2','C','2022-01-04','flats_Eph2022/draco2/C/master_flat_draco2_22_01_04_C.fits'),
     ('draco2','V','2022-01-04','flats_Eph2022/draco2/V/master_flat_draco2_22_01_04_V.fits'),
     ('draco2','r','2022-01-04','flats_Eph2022/draco2/r/master_flat_draco2_22_01_04_r.fits'),
-    ('draco2','B','2022-10-22','2022_mich_flats/draco2/master_flat_draco2_22_10_22_B.fits'),
-    ('draco2','C','2022-10-22','2022_mich_flats/draco2/master_flat_draco2_22_10_22_C.fits'),
-    ('draco2','V','2022-10-22','2022_mich_flats/draco2/master_flat_draco2_22_10_22_V.fits'),
-    ('draco2','r','2022-10-22','2022_mich_flats/draco2/master_flat_draco2_22_10_22_r.fits'),
+    ('draco2','B','2022-10-22','flats_Mich2022/draco2/master_flat_draco2_22_10_22_B.fits'),
+    ('draco2','C','2022-10-22','flats_Mich2022/draco2/master_flat_draco2_22_10_22_C.fits'),
+    ('draco2','V','2022-10-22','flats_Mich2022/draco2/master_flat_draco2_22_10_22_V.fits'),
+    ('draco2','r','2022-10-22','flats_Mich2022/draco2/master_flat_draco2_22_10_22_r.fits'),
     ('draco2','B','2023-01-18','flats_Eph2023/draco2/B/master_flat_draco2_23_01_18_B.fits'),
     ('draco2','V','2023-01-18','flats_Eph2023/draco2/V/master_flat_draco2_23_01_18_V.fits'),   # header not captured; taken from file name
     ('draco2','r','2023-01-18','flats_Eph2023/draco2/R/master_flat_draco2_23_01_18_r.fits'),
@@ -429,10 +433,19 @@ SHARED_FLATS = [
     ('draco2','C','2024-01-17','flats_Eph2024/draco2/c/master_flat_draco2_24_01_17_C.fits'),
     ('draco2','V','2024-01-17','flats_Eph2024/draco2/v/master_flat_draco2_24_01_17_V.fits'),
     ('draco2','r','2024-01-17','flats_Eph2024/draco2/r/master_flat_draco2_24_01_17_r.fits'),
+    ('draco2','B','2024-10-19','flats_Mich2024/master_flat_draco2_24_10_19_B.fits'),   # from file name
+    ('draco2','C','2024-10-19','flats_Mich2024/master_flat_draco2_24_10_19_C.fits'),   # from file name
+    ('draco2','V','2024-10-19','flats_Mich2024/master_flat_draco2_24_10_19_V.fits'),   # from file name
+    ('draco2','r','2024-10-19','flats_Mich2024/master_flat_draco2_24_10_19_r.fits'),   # from file name
     ('draco2','C','2025-01-25','flats_Eph2025/draco2/c/master_flat_draco2_25_01_25_C.fits'),
     ('draco2','V','2025-01-25','flats_Eph2025/draco2/v/master_flat_draco2_25_01_25_V.fits'),
     ('draco2','B','2025-01-30','flats_Eph2025/draco2/b/master_flat_draco2_25_01_30_B.fits'),
     ('draco2','r','2025-01-30','flats_Eph2025/draco2/r/master_flat_draco2_25_01_30_r.fits'),
+    ('draco2','V','2025-10-10','flats_Mich2025/master_flat_draco2_25_10_10_V.fits'),   # from file name
+    ('draco2','B','2025-11-28','flats_Mich2025/master_flat_draco2_25_11_28_B.fits'),   # from file name
+    ('draco2','C','2025-11-28','flats_Mich2025/master_flat_draco2_25_11_28_C.fits'),   # from file name
+    ('draco2','V','2025-11-28','flats_Mich2025/master_flat_draco2_25_11_28_V.fits'),   # from file name
+    ('draco2','r','2025-11-28','flats_Mich2025/master_flat_draco2_25_11_28_r.fits'),   # from file name
     ('draco2','B','2026-02-24','flats_Eph2026/draco2_26_02_24_B_master_flat.fits'),
     ('draco2','C','2026-02-24','flats_Eph2026/draco2_26_02_24_C_master_flat.fits'),
     ('draco2','V','2026-02-24','flats_Eph2026/draco2_26_02_24_V_master_flat.fits'),
@@ -441,23 +454,28 @@ SHARED_FLATS = [
     ('draco2','V','2026-10-22','flats_Mich2026/master_flat_draco2_26_10_22_V.fits'),
 
     # east-14
-    ('east-14','B','2018-10-22','2018_Mich_Flats/east-14/b/master_flat.fits'),
-    ('east-14','C','2018-10-22','2018_Mich_Flats/east-14/c/master_flat.fits'),
-    ('east-14','R','2018-10-22','2018_Mich_Flats/east-14/r/master_flat.fits'),
-    ('east-14','V','2018-10-22','2018_Mich_Flats/east-14/v/master_flat.fits'),
-    ('east-14','B','2019-01-17','Epiph2019/East14/b/master_flat.fits'),
-    ('east-14','C','2019-01-17','Epiph2019/East14/c/master_flat.fits'),
-    ('east-14','R','2019-01-17','Epiph2019/East14/r/master_flat.fits'),
-    ('east-14','V','2019-01-17','Epiph2019/East14/v/master_flat.fits'),
-    ('east-14','B','2019-10-31','mich2019_flats/east-14/QSI/B/master_flat.fits'),
-    ('east-14','C','2019-10-31','mich2019_flats/east-14/QSI/C/master_flat.fits'),
-    ('east-14','R','2019-10-31','mich2019_flats/east-14/QSI/R/master_flat.fits'),
-    ('east-14','V','2019-10-31','mich2019_flats/east-14/QSI/V/master_flat.fits'),
-    ('east-14','B','2019-11-29','mich2019_flats/east-14/MI/B/master_flat.fits'),
-    ('east-14','C','2019-11-29','mich2019_flats/east-14/MI/C/master_flat.fits'),
-    ('east-14','V','2019-11-29','mich2019_flats/east-14/MI/V/master_flat.fits'),
-    ('east-14','g','2019-11-29','mich2019_flats/east-14/MI/g/master_flat.fits'),
-    ('east-14','r','2019-11-29','mich2019_flats/east-14/MI/r/master_flat.fits'),
+    ('east-14','B','2018-10-22','flats_Mich2018/east-14/b/master_flat.fits'),
+    ('east-14','C','2018-10-22','flats_Mich2018/east-14/c/master_flat.fits'),
+    ('east-14','R','2018-10-22','flats_Mich2018/east-14/r/master_flat.fits'),
+    ('east-14','V','2018-10-22','flats_Mich2018/east-14/v/master_flat.fits'),
+    ('east-14','B','2019-01-17','flats_Eph2019/East14/b/master_flat.fits'),
+    ('east-14','C','2019-01-17','flats_Eph2019/East14/c/master_flat.fits'),
+    ('east-14','R','2019-01-17','flats_Eph2019/East14/r/master_flat.fits'),
+    ('east-14','V','2019-01-17','flats_Eph2019/East14/v/master_flat.fits'),
+    ('east-14','B','2019-10-31','flats_Mich2019/east-14/QSI/B/master_flat.fits'),
+    ('east-14','C','2019-10-31','flats_Mich2019/east-14/QSI/C/master_flat.fits'),
+    ('east-14','R','2019-10-31','flats_Mich2019/east-14/QSI/R/master_flat.fits'),
+    ('east-14','V','2019-10-31','flats_Mich2019/east-14/QSI/V/master_flat.fits'),
+    ('east-14','B','2019-11-29','flats_Mich2019/east-14/MI/B/master_flat.fits'),
+    ('east-14','C','2019-11-29','flats_Mich2019/east-14/MI/C/master_flat.fits'),
+    ('east-14','V','2019-11-29','flats_Mich2019/east-14/MI/V/master_flat.fits'),
+    ('east-14','g','2019-11-29','flats_Mich2019/east-14/MI/g/master_flat.fits'),
+    ('east-14','r','2019-11-29','flats_Mich2019/east-14/MI/r/master_flat.fits'),
+    ('east-14','B','2020-10-30','flats_Mich2020/east-14/B/master_flat_east-14_20_10_30_B.fits'),   # from file name
+    ('east-14','C','2020-10-30','flats_Mich2020/east-14/C/master_flat_east-14_20_10_30_C.fits'),   # from file name
+    ('east-14','V','2020-10-30','flats_Mich2020/east-14/V/master_flat_east-14_20_10_30_V.fits'),   # from file name
+    ('east-14','g','2020-10-30','flats_Mich2020/east-14/g/master_flat_east-14_20_10_30_g.fits'),   # from file name
+    ('east-14','r','2020-10-30','flats_Mich2020/east-14/R/master_flat_east-14_20_10_30_r.fits'),   # from file name
     ('east-14','r','2022-01-07','flats_Eph2022/east-14/r/master_flat_east-14_22_01_07_r.fits'),
     ('east-14','B','2022-01-13','flats_Eph2022/east-14/B/master_flat_east-14_22_01_13_B.fits'),
     ('east-14','V','2022-01-13','flats_Eph2022/east-14/V/master_flat_east-14_22_01_13_V.fits'),
@@ -465,10 +483,10 @@ SHARED_FLATS = [
     ('east-14','r','2022-01-13','flats_Eph2022/east-14/r/master_flat_east-14_22_01_13_r.fits'),
 
     # east-16
-    ('east-16','B','2022-10-22','2022_mich_flats/east-16/master_flat_east-16_22_10_22_B.fits'),
-    ('east-16','C','2022-10-22','2022_mich_flats/east-16/master_flat_east-16_22_10_22_C.fits'),
-    ('east-16','V','2022-10-22','2022_mich_flats/east-16/master_flat_east-16_22_10_22_V.fits'),
-    ('east-16','r','2022-10-22','2022_mich_flats/east-16/master_flat_east-16_22_10_22_r.fits'),
+    ('east-16','B','2022-10-22','flats_Mich2022/east-16/master_flat_east-16_22_10_22_B.fits'),
+    ('east-16','C','2022-10-22','flats_Mich2022/east-16/master_flat_east-16_22_10_22_C.fits'),
+    ('east-16','V','2022-10-22','flats_Mich2022/east-16/master_flat_east-16_22_10_22_V.fits'),
+    ('east-16','r','2022-10-22','flats_Mich2022/east-16/master_flat_east-16_22_10_22_r.fits'),
     ('east-16','B','2023-01-18','flats_Eph2023/East-16/B/master_flat_east-16_23_01_18_B.fits'),
     ('east-16','C','2023-01-18','flats_Eph2023/East-16/C/master_flat_east-16_23_01_18_C.fits'),
     ('east-16','V','2023-01-18','flats_Eph2023/East-16/V/master_flat_east-16_23_01_18_V.fits'),
@@ -479,10 +497,18 @@ SHARED_FLATS = [
     ('east-16','V','2024-01-18','flats_Eph2024/east-16/v/master_flat_east-16_24_01_18_V.fits'),
     ('east-16','g','2024-01-18','flats_Eph2024/east-16/g/master_flat_east-16_24_01_18_g.fits'),
     ('east-16','r','2024-01-18','flats_Eph2024/east-16/r/master_flat_east-16_24_01_18_r.fits'),
+    ('east-16','B','2024-10-19','flats_Mich2024/master_flat_east-16_24_10_19_B.fits'),   # from file name
+    ('east-16','C','2024-10-19','flats_Mich2024/master_flat_east-16_24_10_19_C.fits'),   # from file name
+    ('east-16','V','2024-10-19','flats_Mich2024/master_flat_east-16_24_10_19_V.fits'),   # from file name
+    ('east-16','g','2024-10-19','flats_Mich2024/master_flat_east-16_24_10_19_g.fits'),   # from file name
+    ('east-16','r','2024-10-19','flats_Mich2024/master_flat_east-16_24_10_19_r.fits'),   # from file name
     ('east-16','B','2025-01-25','flats_Eph2025/east-16/b/master_flat_east-16_25_01_25_B.fits'),
     ('east-16','C','2025-01-25','flats_Eph2025/east-16/c/master_flat_east-16_25_01_25_C.fits'),
     ('east-16','V','2025-01-25','flats_Eph2025/east-16/v/master_flat_east-16_25_01_25_V.fits'),
     ('east-16','r','2025-01-30','flats_Eph2025/east-16/r/master_flat_east-16_25_01_30_r.fits'),
+    ('east-16','B','2025-10-13','flats_Mich2025/master_flat_east-16_25_10_13_B.fits'),   # from file name
+    ('east-16','C','2025-10-13','flats_Mich2025/master_flat_east-16_25_10_13_C.fits'),   # from file name
+    ('east-16','V','2025-10-13','flats_Mich2025/master_flat_east-16_25_10_13_V.fits'),   # from file name
     ('east-16','B','2026-02-24','flats_Eph2026/east-16_26_02_24_B_master_flat.fits'),
     ('east-16','C','2026-02-24','flats_Eph2026/east-16_26_02_24_C_master_flat.fits'),
     ('east-16','V','2026-02-24','flats_Eph2026/east-16_26_02_24_V_master_flat.fits'),
@@ -493,29 +519,37 @@ SHARED_FLATS = [
     ('east-16','r','2026-10-09','flats_Mich2026/master_flat_east-16_26_10_09_r.fits'),
 
     # far-east-16
-    ('far-east-16','B','2018-10-17','2018_Mich_Flats/FE16/b/master_flat.fits'),
-    ('far-east-16','C','2018-10-17','2018_Mich_Flats/FE16/c/master_flat.fits'),
-    ('far-east-16','V','2018-10-17','2018_Mich_Flats/FE16/v/master_flat.fits'),
-    ('far-east-16','r','2018-10-17','2018_Mich_Flats/FE16/r/master_flat.fits'),
-    ('far-east-16','B','2019-01-30','Epiph2019/FarEast16/b/master_flat.fits'),
-    ('far-east-16','C','2019-01-30','Epiph2019/FarEast16/c/master_flat.fits'),
-    ('far-east-16','V','2019-01-30','Epiph2019/FarEast16/v/master_flat.fits'),
-    ('far-east-16','r','2019-01-30','Epiph2019/FarEast16/r/master_flat.fits'),
-    ('far-east-16','B','2019-10-16','mich2019_flats/FE16_12inch/B/master_flat.fits'),
-    ('far-east-16','C','2019-10-21','mich2019_flats/FE16_12inch/C/master_flat.fits'),
-    ('far-east-16','r','2019-10-21','mich2019_flats/FE16_12inch/R/master_flat.fits'),
-    ('far-east-16','B','2021-01-23','2021_flats/Jan/far-east-16/B/master_flat_far-east-16_21_01_23_B.fits'),
-    ('far-east-16','C','2021-01-23','2021_flats/Jan/far-east-16/C/master_flat_far-east-16_21_01_23_C.fits'),
-    ('far-east-16','V','2021-01-23','2021_flats/Jan/far-east-16/V/master_flat_far-east-16_21_01_23_V.fits'),
-    ('far-east-16','r','2021-01-23','2021_flats/Jan/far-east-16/R/master_flat_far-east-16_21_01_23_r.fits'),
+    ('far-east-16','B','2018-10-17','flats_Mich2018/FE16/b/master_flat.fits'),
+    ('far-east-16','C','2018-10-17','flats_Mich2018/FE16/c/master_flat.fits'),
+    ('far-east-16','V','2018-10-17','flats_Mich2018/FE16/v/master_flat.fits'),
+    ('far-east-16','r','2018-10-17','flats_Mich2018/FE16/r/master_flat.fits'),
+    ('far-east-16','B','2019-01-30','flats_Eph2019/FarEast16/b/master_flat.fits'),
+    ('far-east-16','C','2019-01-30','flats_Eph2019/FarEast16/c/master_flat.fits'),
+    ('far-east-16','V','2019-01-30','flats_Eph2019/FarEast16/v/master_flat.fits'),
+    ('far-east-16','r','2019-01-30','flats_Eph2019/FarEast16/r/master_flat.fits'),
+    ('far-east-16','B','2019-10-16','flats_Mich2019/FE16_12inch/B/master_flat.fits'),
+    ('far-east-16','C','2019-10-21','flats_Mich2019/FE16_12inch/C/master_flat.fits'),
+    ('far-east-16','r','2019-10-21','flats_Mich2019/FE16_12inch/R/master_flat.fits'),
+    ('far-east-16','B','2020-10-15','flats_Mich2020/far-east-16/B/master_flat_far-east-16_20_10_15_B.fits'),   # from file name
+    ('far-east-16','C','2020-10-15','flats_Mich2020/far-east-16/C/master_flat_far-east-16_20_10_15_C.fits'),   # from file name
+    ('far-east-16','V','2020-10-15','flats_Mich2020/far-east-16/V/master_flat_far-east-16_20_10_15_V.fits'),   # from file name
+    ('far-east-16','r','2020-10-15','flats_Mich2020/far-east-16/R/master_flat_far-east-16_20_10_15_r.fits'),   # from file name
+    ('far-east-16','B','2020-11-04','flats_Mich2020/far-east-16/Nov04/B/master_flat_far-east-16_20_11_04_B.fits'),   # from file name
+    ('far-east-16','C','2020-11-04','flats_Mich2020/far-east-16/Nov04/C/master_flat_far-east-16_20_11_04_C.fits'),   # from file name
+    ('far-east-16','V','2020-11-04','flats_Mich2020/far-east-16/Nov04/V/master_flat_far-east-16_20_11_04_V.fits'),   # from file name
+    ('far-east-16','r','2020-11-04','flats_Mich2020/far-east-16/Nov04/R/master_flat_far-east-16_20_11_04_r.fits'),   # from file name
+    ('far-east-16','B','2021-01-23','flats_Mich2021/Jan/far-east-16/B/master_flat_far-east-16_21_01_23_B.fits'),
+    ('far-east-16','C','2021-01-23','flats_Mich2021/Jan/far-east-16/C/master_flat_far-east-16_21_01_23_C.fits'),
+    ('far-east-16','V','2021-01-23','flats_Mich2021/Jan/far-east-16/V/master_flat_far-east-16_21_01_23_V.fits'),
+    ('far-east-16','r','2021-01-23','flats_Mich2021/Jan/far-east-16/R/master_flat_far-east-16_21_01_23_r.fits'),
 
     # far-east-20
     ('far-east-20','B','2022-01-05','flats_Eph2022/far-east-20/B/master_flat_far-east-20_22_01_05_B.fits'),
     ('far-east-20','C','2022-01-05','flats_Eph2022/far-east-20/C/master_flat_far-east-20_22_01_05_C.fits'),
     ('far-east-20','V','2022-01-05','flats_Eph2022/far-east-20/R/master_flat_far-east-20_22_01_05_V.fits'),
-    ('far-east-20','B','2022-10-22','2022_mich_flats/far-east-20/master_flat_far-east-20_22_10_22_B.fits'),
-    ('far-east-20','C','2022-10-22','2022_mich_flats/far-east-20/master_flat_far-east-20_22_10_22_C.fits'),
-    ('far-east-20','V','2022-10-22','2022_mich_flats/far-east-20/master_flat_far-east-20_22_10_22_V.fits'),
+    ('far-east-20','B','2022-10-22','flats_Mich2022/far-east-20/master_flat_far-east-20_22_10_22_B.fits'),
+    ('far-east-20','C','2022-10-22','flats_Mich2022/far-east-20/master_flat_far-east-20_22_10_22_C.fits'),
+    ('far-east-20','V','2022-10-22','flats_Mich2022/far-east-20/master_flat_far-east-20_22_10_22_V.fits'),
     ('far-east-20','B','2024-01-30','flats_Eph2024/far-east20/b/master_flat_far-east-20_24_01_30_B.fits'),
     ('far-east-20','C','2024-01-30','flats_Eph2024/far-east20/c/master_flat_far-east-20_24_01_30_C.fits'),
     ('far-east-20','I','2024-01-30','flats_Eph2024/far-east20/i/master_flat_far-east-20_24_01_30_I.fits'),
@@ -530,27 +564,31 @@ SHARED_FLATS = [
     ('far-east-20','V','2026-10-16','flats_Mich2026/master_flat_far-east-20_26_10_16_V.fits'),
 
     # west-14
-    ('west-14','B','2018-10-29','2018_Mich_Flats/west-14/b/master_flat.fits'),
-    ('west-14','C','2018-10-29','2018_Mich_Flats/west-14/c/master_flat.fits'),
-    ('west-14','R','2018-10-29','2018_Mich_Flats/west-14/r/master_flat.fits'),
-    ('west-14','V','2018-10-29','2018_Mich_Flats/west-14/v/master_flat.fits'),
-    ('west-14','B','2019-01-17','Epiph2019/West14/b/master_flat.fits'),
-    ('west-14','C','2019-01-17','Epiph2019/West14/c/master_flat.fits'),
-    ('west-14','R','2019-01-17','Epiph2019/West14/r/master_flat.fits'),
-    ('west-14','V','2019-01-17','Epiph2019/West14/v/master_flat.fits'),
-    ('west-14','B','2019-10-31','mich2019_flats/west-14/B/master_flat.fits'),
-    ('west-14','C','2019-10-31','mich2019_flats/west-14/C/master_flat.fits'),
-    ('west-14','R','2019-10-31','mich2019_flats/west-14/R/master_flat.fits'),
-    ('west-14','V','2019-10-31','mich2019_flats/west-14/V/master_flat.fits'),
+    ('west-14','B','2018-10-29','flats_Mich2018/west-14/b/master_flat.fits'),
+    ('west-14','C','2018-10-29','flats_Mich2018/west-14/c/master_flat.fits'),
+    ('west-14','R','2018-10-29','flats_Mich2018/west-14/r/master_flat.fits'),
+    ('west-14','V','2018-10-29','flats_Mich2018/west-14/v/master_flat.fits'),
+    ('west-14','B','2019-01-17','flats_Eph2019/West14/b/master_flat.fits'),
+    ('west-14','C','2019-01-17','flats_Eph2019/West14/c/master_flat.fits'),
+    ('west-14','R','2019-01-17','flats_Eph2019/West14/r/master_flat.fits'),
+    ('west-14','V','2019-01-17','flats_Eph2019/West14/v/master_flat.fits'),
+    ('west-14','B','2019-10-31','flats_Mich2019/west-14/B/master_flat.fits'),
+    ('west-14','C','2019-10-31','flats_Mich2019/west-14/C/master_flat.fits'),
+    ('west-14','R','2019-10-31','flats_Mich2019/west-14/R/master_flat.fits'),
+    ('west-14','V','2019-10-31','flats_Mich2019/west-14/V/master_flat.fits'),
+    ('west-14','B','2020-10-30','flats_Mich2020/west-14/B/master_flat_west-14_20_10_30_B.fits'),   # from file name
+    ('west-14','C','2020-10-30','flats_Mich2020/west-14/C/master_flat_west-14_20_10_30_C.fits'),   # from file name
+    ('west-14','R','2020-10-30','flats_Mich2020/west-14/R/master_flat_west-14_20_10_30_R.fits'),   # from file name
+    ('west-14','V','2020-10-30','flats_Mich2020/west-14/V/master_flat_west-14_20_10_30_V.fits'),   # from file name
     ('west-14','B','2022-01-05','flats_Eph2022/west-14/B/master_flat_west-14_22_01_05_B.fits'),
     ('west-14','C','2022-01-05','flats_Eph2022/west-14/C/master_flat_west-14_22_01_05_C.fits'),
     ('west-14','R','2022-01-05','flats_Eph2022/west-14/r/master_flat_west-14_22_01_05_R.fits'),
     ('west-14','V','2022-01-05','flats_Eph2022/west-14/V/master_flat_west-14_22_01_05_V.fits'),
-    ('west-14','B','2022-10-10','2022_mich_flats/west-14/master_flat_west-14_22_10_10_B.fits'),
-    ('west-14','C','2022-10-10','2022_mich_flats/west-14/master_flat_west-14_22_10_10_C.fits'),
-    ('west-14','R','2022-10-10','2022_mich_flats/west-14/master_flat_west-14_22_10_10_R.fits'),
-    ('west-14','V','2022-10-10','2022_mich_flats/west-14/master_flat_west-14_22_10_10_V.fits'),
-    ('west-14','r','2022-10-10','2022_mich_flats/west-14/master_flat_west-14_22_10_10_r.fits'),
+    ('west-14','B','2022-10-10','flats_Mich2022/west-14/master_flat_west-14_22_10_10_B.fits'),
+    ('west-14','C','2022-10-10','flats_Mich2022/west-14/master_flat_west-14_22_10_10_C.fits'),
+    ('west-14','R','2022-10-10','flats_Mich2022/west-14/master_flat_west-14_22_10_10_R.fits'),
+    ('west-14','V','2022-10-10','flats_Mich2022/west-14/master_flat_west-14_22_10_10_V.fits'),
+    ('west-14','r','2022-10-10','flats_Mich2022/west-14/master_flat_west-14_22_10_10_r.fits'),
     ('west-14','B','2023-01-18','flats_Eph2023/West-14/B/master_flat_west-14_23_01_18_B.fits'),
     ('west-14','C','2023-01-18','flats_Eph2023/West-14/C/master_flat_west-14_23_01_18_C.fits'),
     ('west-14','R','2023-01-18','flats_Eph2023/West-14/R/master_flat_west-14_23_01_18_R.fits'),
@@ -559,6 +597,11 @@ SHARED_FLATS = [
     ('west-14','C','2024-01-30','flats_Eph2024/west14/c/master_flat_west-14_24_01_30_C.fits'),
     ('west-14','R','2024-01-30','flats_Eph2024/west14/r/master_flat_west-14_24_01_30_R.fits'),
     ('west-14','V','2024-01-30','flats_Eph2024/west14/v/master_flat_west-14_24_01_30_V.fits'),
+    ('west-14','B','2024-10-19','flats_Mich2024/master_flat_west-14_24_10_19_B.fits'),   # from file name
+    ('west-14','C','2024-10-19','flats_Mich2024/master_flat_west-14_24_10_19_C.fits'),   # from file name
+    ('west-14','R','2024-10-19','flats_Mich2024/master_flat_west-14_24_10_19_R.fits'),   # from file name
+    ('west-14','V','2024-10-19','flats_Mich2024/master_flat_west-14_24_10_19_V.fits'),   # from file name
+    ('west-14','r','2024-10-19','flats_Mich2024/master_flat_west-14_24_10_19_r.fits'),   # from file name
     ('west-14','B','2025-01-25','flats_Eph2025/west14/b/master_flat_west-14_25_01_25_B.fits'),
     ('west-14','C','2025-01-25','flats_Eph2025/west14/c/master_flat_west-14_25_01_25_C.fits'),
     ('west-14','R','2025-01-25','flats_Eph2025/west14/r/master_flat_west-14_25_01_25_R.fits'),
