@@ -3,7 +3,7 @@ SN  SN2026kc
 z = 0.0228          zcmb = 0.0240          ra=155.60448         dec=  4.00043 
 Data in the following bands: Bs,  Vs,  Rs,  Is,  
 Fit results (if any):
-   DM = 34.355  +/-  0.131  +/- 0.099 (sys)
-   st = 1.594  +/-  0.173  +/- 0.030 (sys)
-   EBVhost = 0.091  +/-  0.279  +/- 0.060 (sys)
-   Tmax = 61061.387  +/-  3.653  +/- 0.340 (sys)
+   DM = 34.398  +/-  0.111  +/- 0.111 (sys)
+   st = 1.752  +/-  0.101  +/- 0.030 (sys)
+   EBVhost = -0.179  +/-  0.232  +/- 0.060 (sys)
+   Tmax = 61058.846  +/-  3.333  +/- 0.340 (sys)

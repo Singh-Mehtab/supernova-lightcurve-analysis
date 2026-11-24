@@ -3,7 +3,7 @@ SN  SN2025ahsa
 z = 0.0150          zcmb = 0.0158          ra=218.75088         dec=  0.98622 
 Data in the following bands: Bs,  Vs,  Rs,  Is,  
 Fit results (if any):
-   DM = 34.010  +/-  0.073  +/- 0.079 (sys)
-   st = 1.109  +/-  0.055  +/- 0.030 (sys)
-   EBVhost = 0.035  +/-  0.043  +/- 0.060 (sys)
-   Tmax = 61035.047  +/-  1.049  +/- 0.340 (sys)
+   DM = 34.010  +/-  0.067  +/- 0.079 (sys)
+   st = 1.109  +/-  0.050  +/- 0.030 (sys)
+   EBVhost = 0.034  +/-  0.040  +/- 0.060 (sys)
+   Tmax = 61035.029  +/-  0.954  +/- 0.340 (sys)
