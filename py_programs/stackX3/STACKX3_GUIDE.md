@@ -1,6 +1,6 @@
 # stackX3 guide
 
-Last updated: 2026-11-16
+Last updated: 2026-11-23
 
 This explains what `stackX3.py` does, how to call it, what it reads and writes, and how to tell whether a run worked. It is meant for anyone, person or AI, who needs to run it, build a batch system around it, or change it.
 
@@ -61,7 +61,7 @@ There is also the old mode `python3 stackX3.py <seeing_limit>`, run in a folder 
 | Variable | Default |
 |---|---|
 | `STACKX3_ARCHIVE_ROOT` | `/mnt/archive` |
-| `STACKX3_FLAT_ROOT` | `/mnt/share/flatfields` (location not yet confirmed; notebook 03 used `/home/astrolab/SNe/flatfields`) |
+| `STACKX3_FLAT_ROOT` | `/mnt/share/flatfields` (confirmed from the lab listing of 2026-11-17) |
 | `STACKX3_AREFCAT` | `/mnt/64bin/auto_astrom/arefcat.py` |
 
 arefcat is run with the same Python as stackX3 (`sys.executable`).
@@ -162,10 +162,10 @@ Log lines worth searching for:
 
 ## Updating the flat list
 
-`SHARED_FLATS` in `stackX3.py` lists every usable master flat on the shared drive as `(telescope, FILTER, date taken, path relative to FLAT_ROOT)`. Each FILTER and date comes from the file's own header, as recorded in the lab inventory of 2026-10-26. That gives 158 entries, with 12 files left out because they're mislabelled or ambiguous (the reasons are in the comments above the list and in issue 10 of the open-issues file).
+`SHARED_FLATS` in `stackX3.py` lists every usable master flat on the shared drive as `(telescope, FILTER, date taken, path relative to FLAT_ROOT)`. Each FILTER and date comes from the file's own header, as recorded in the lab inventory of 2026-10-26, with `flats_Mich2026` re-read on 2026-11-23. That gives 210 entries, with the remaining mislabelled or ambiguous files left out because they're mislabelled or ambiguous (the reasons are in the comments above the list and in issue 10 of the open-issues file).
 
 When new flats are added at the lab (for example a new Michaelmas set):
-1. Run the `lab_info_collector` at the lab to get a fresh capture.
+1. At the lab, run `python3 dump_flat_headers.py <flat folder>` (in `lab batches/stackx3_laptop_tests/`; read-only, standard Python only) and bring back the CSV it writes. For a full re-inventory, use the `lab_info_collector` instead.
 2. Run `python3 "Astrolab_Code/lab batches/stackx3_laptop_tests/build_shared_flat_table.py" <capture folder>`.
 3. Check any new files whose header disagrees with their name, and add them to the exclusion list in that script if needed.
 4. Replace the `SHARED_FLATS` list in `stackX3.py` with the output, then rerun the laptop tests.

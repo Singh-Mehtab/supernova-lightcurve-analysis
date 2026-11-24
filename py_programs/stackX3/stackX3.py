@@ -378,12 +378,14 @@ AREFCAT = os.environ.get('STACKX3_AREFCAT','/mnt/64bin/auto_astrom/arefcat.py')
 #
 # Each entry is (telescope, FILTER, date the flat was taken, path relative to
 # FLAT_ROOT). FILTER and date come from each file's own header, read from the
-# lab inventory of 2026-10-26, so check for new flat sets after that date.
+# lab inventory of 2026-10-26; flats_Mich2026 was re-read on 2026-11-23
+# (dump_flat_headers.py). Check for new flat sets after that date.
+# The west-14 B flat was replaced at the lab on 2026-10-26 and its header now
+# says FILTER = B, so it is included again.
 # The script also checks each flat's FILTER and size before using it, so a flat
 # from a different camera on the same telescope is skipped.
 #
 # Files left out on purpose:
-# flats_Mich2026/master_flat_west-14_26_10_01_B.fits: header says FILTER = V, same exposure as the V flat
 # flats_Eph2022/east-14/C/master_flat_draco2_22_01_13_C.fits: in the east-14 folder but TELESCOP is DRACO2
 # flats_Eph2022/far-east-20/old/B/master_flat_far-east-20_22_01_05_B.fits: in an old/ folder
 # flats_Eph2023/FE20/EoP/B/master_flat_far-east-20_23_01_19_B.fits: two flats per filter (east and west of pier); pier side of each image unknown
@@ -452,6 +454,10 @@ SHARED_FLATS = [
     ('draco2','r','2026-02-24','flats_Eph2026/draco2_26_02_24_R_master_flat.fits'),
     ('draco2','C','2026-10-22','flats_Mich2026/master_flat_draco2_26_10_22_C.fits'),
     ('draco2','V','2026-10-22','flats_Mich2026/master_flat_draco2_26_10_22_V.fits'),
+    ('draco2','B','2026-11-20','flats_Mich2026/master_flat_draco2_26_11_20_B.fits'),
+    ('draco2','C','2026-11-20','flats_Mich2026/master_flat_draco2_26_11_20_C.fits'),
+    ('draco2','V','2026-11-20','flats_Mich2026/master_flat_draco2_26_11_20_V.fits'),
+    ('draco2','r','2026-11-20','flats_Mich2026/master_flat_draco2_26_11_20_r.fits'),
 
     # east-14
     ('east-14','B','2018-10-22','flats_Mich2018/east-14/b/master_flat.fits'),
@@ -562,6 +568,10 @@ SHARED_FLATS = [
     ('far-east-20','V','2025-02-05','flats_Eph2025/far-east20/v/master_flat_far-east-20_25_02_05_V.fits'),
     ('far-east-20','C','2026-10-16','flats_Mich2026/master_flat_far-east-20_26_10_16_C.fits'),
     ('far-east-20','V','2026-10-16','flats_Mich2026/master_flat_far-east-20_26_10_16_V.fits'),
+    ('far-east-20','B','2026-11-21','flats_Mich2026/master_flat_far-east-20_26_11_21_B.fits'),
+    ('far-east-20','C','2026-11-21','flats_Mich2026/master_flat_far-east-20_26_11_21_C.fits'),
+    ('far-east-20','I','2026-11-21','flats_Mich2026/master_flat_far-east-20_26_11_21_I.fits'),
+    ('far-east-20','V','2026-11-21','flats_Mich2026/master_flat_far-east-20_26_11_21_V.fits'),
 
     # west-14
     ('west-14','B','2018-10-29','flats_Mich2018/west-14/b/master_flat.fits'),
@@ -606,6 +616,7 @@ SHARED_FLATS = [
     ('west-14','C','2025-01-25','flats_Eph2025/west14/c/master_flat_west-14_25_01_25_C.fits'),
     ('west-14','R','2025-01-25','flats_Eph2025/west14/r/master_flat_west-14_25_01_25_R.fits'),
     ('west-14','V','2025-01-25','flats_Eph2025/west14/v/master_flat_west-14_25_01_25_V.fits'),
+    ('west-14','B','2026-10-01','flats_Mich2026/master_flat_west-14_26_10_01_B.fits'),
     ('west-14','C','2026-10-01','flats_Mich2026/master_flat_west-14_26_10_01_C.fits'),
     ('west-14','R','2026-10-01','flats_Mich2026/master_flat_west-14_26_10_01_R.fits'),
     ('west-14','V','2026-10-01','flats_Mich2026/master_flat_west-14_26_10_01_V.fits'),

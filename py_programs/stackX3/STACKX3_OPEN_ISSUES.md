@@ -1,6 +1,6 @@
 # stackX3 open issues
 
-Last updated: 2026-11-16
+Last updated: 2026-11-23
 
 `Astrolab_Code/py_programs/stackX3.py` is a minimal-change copy of `stackX2.py`; `stackX2.py` itself is unchanged. This file tracks the problems stackX3 still has, so any of them can be picked up later. How to use it is in `STACKX3_GUIDE.md`; the background is in `STACKX2_ISSUE_HANDOFF.md`. Laptop tests: `Astrolab_Code/lab batches/stackx3_laptop_tests/`.
 
@@ -66,16 +66,16 @@ Priority: **A** worth doing next, **B** do when relevant, **C** recorded only, n
 
 ### 10. Flat questions still open (A)
 The age and selection rules are decided. These remain:
-- **Flat location:** confirm that the lab flats are under `/mnt/share/flatfields`. Notebook 03 uses `/home/astrolab/SNe/flatfields`, and the local copies don't hash-match the shared originals. If the path is wrong, every non-pt5m job stops with "file does not exist".
-- **The table is a snapshot from 2026-10-26.** Any flat set added after that (for example a Michaelmas 2026 draco2 B or r) isn't known until it's added to `SHARED_FLATS`.
+- **Flat location (fixed 2026-11-17):** the lab flats are under `/mnt/share/flatfields`. Batch sx3_02 failed 59 groups with "no suitable flat" because five folders had been renamed (`2018_Mich_Flats`, `Epiph2019`, `mich2019_flats`, `2021_flats`, `2022_mich_flats` became `flats_Mich2018`, `flats_Eph2019`, `flats_Mich2019`, `flats_Mich2021`, `flats_Mich2022`). `SHARED_FLATS` now uses the new names. All 201 entries match the lab listing of 2026-11-17.
+- **The table is a snapshot.** Most of it is from the 2026-10-26 inventory; `flats_Mich2026` was re-read on 2026-11-23 with `dump_flat_headers.py`, adding draco2 B/C/V/r (2026-11-20) and far-east-20 B/C/I/V (2026-11-21). Flat sets added after that aren't known until they're added to `SHARED_FLATS`.
 - **Mislabelled or ambiguous files left out of `SHARED_FLATS`:**
-  - `flats_Mich2026/master_flat_west-14_26_10_01_B.fits`: header FILTER = V, the same exposure as the V flat. West-14 B 2026 data therefore falls back to the Epiphany 2025 B flat (about 20 months old, so it gets the soft warning). Needs lab confirmation or a real B flat.
+  - *Resolved 2026-11-23:* `flats_Mich2026/master_flat_west-14_26_10_01_B.fits` was replaced at the lab on 2026-10-26 (after the inventory). Its header now says FILTER = B with its own DATE-OBS (18:10:25, vs 18:12:02 for V), so it is back in `SHARED_FLATS`.
   - `mich2019_flats/FE16_12inch/V/master_flat.fits`: header FILTER = B, the same exposure as the B flat.
   - `flats_Eph2022/east-14/C/master_flat_draco2_22_01_13_C.fits`: sits in the east-14 folder but TELESCOP is DRACO2.
   - `flats_Eph2022/far-east-20/old/B/...`: in an `old/` folder.
   - `flats_Eph2023/FE20/EoP` and `WoP` (8 files): separate flats for east and west of the pier. The right one depends on the pier side of each image, which stackX3 doesn't read. Only matters for far-east-20 data from 2023.
 - **Kept, worth checking:** `flats_Eph2022/far-east-20/R/master_flat_far-east-20_22_01_05_V.fits` sits in an R folder, but its filename and header both say V, so it's listed as V. `flats_Eph2023/draco2/V` had no captured header, so its date and band come from the filename.
-- **Gaps:** there are no Michaelmas sets for 2020, 2021, 2023, 2024 or 2025, and the 2020 Epiphany set is missing too. Autumn data from those years will use a January flat about 9–10 months old, with the warning.
+- **Gaps:** Michaelmas sets for 2020, 2024 and 2025 were found on the share on 2026-11-17 and added from their file names (headers not captured; the FILTER and size check at run time still applies). There are still no Michaelmas sets for 2021 or 2023 and no 2020 Epiphany set, so autumn data from those years will use a January flat about 9–10 months old, with the warning.
 - **Camera changes** (east-14 had MI 1508×1208 flats in Nov 2019; far-east-20 flats change size in 2024 and 2025) are handled by the size check: a flat of the wrong size is skipped and the next older one is tried.
 
 ### 11. Integration (A, before lab use)
